@@ -1100,192 +1100,188 @@ C = \frac{Q}{V}= \frac{1}{\frac{1}{l2\pi\varepsilon_0}\ln\left(\frac{R_1}{R_0}\r
   \end{tikzpicture}
 \end{center}
 
-\chapter{I dipoli elettrici}
-Iniziamo a parlare di dipoli elettrici, sistemi caratterizzati da 2 poli distanziati (o cariche) uno di carica positiva ed una negativa.
-Si introduce una nuova quantità vettoriale detta \textit{Momento di dipolo elettrico}:
-$$
-\vec{p}=q\vec{s}
-\qquad \text{con dimensione:}
-\qquad
-[p]= C m
-$$
-%Spiegare cosa rappresenta fisicamente 
+Iniziamo a parlare di dipoli elettrici: sistemi caratterizzati da due poli (o cariche) distanziati, uno di carica positiva e uno di carica negativa.\\
+Si introduce una nuova quantit\`a vettoriale detta \textit{momento di dipolo elettrico}:
+\begin{equation*}
+\vec{p}=q\vec{s}\qquad\text{con dimensione:}\qquad [p]=\mathrm{C\,m}
+\end{equation*}
+ 
+\paragraph{Significato fisico.} Il momento di dipolo elettrico \`e una grandezza vettoriale che misura la separazione e l'intensit\`a delle cariche in un sistema. Lo introduciamo perch\'e sintetizza, in un unico vettore, come una distribuzione di carica non perfettamente simmetrica appare a grandi distanze e come reagisce a un campo esterno.
+
 
 \section{Potenziale e campo elettrico di dipolo}
-Calcoliamo quindi il potenziale dato da un dipolo elettrico a una distanza $\vec{r}$ dal centro del dipolo stesso (si faccia attenzione alla scelta dei segni una volta scelto il centro del dipolo come origine).
-Supponendo di avere $|\vec{r}|>>|\vec{s}|$ (dove s è la distanza tra le 2 cariche) possiamo affermare che $\vec{s}\to0$ cosicché:
+Calcoliamo quindi il potenziale dato da un dipolo elettrico a una distanza $\vec{r}$ dal centro del dipolo stesso (si presti attenzione alla scelta dei segni una volta scelto il centro del dipolo come origine).\\
+Supponendo di avere $|\vec{r}|\gg|\vec{s}|$ (dove $\vec{s}$ \`e la distanza tra le due cariche) possiamo approssimare $\vec{s}\to\vec{0}$ cosicch\'e:
+\begin{equation*}
+V(\vec{r})=\frac{q}{4\pi \varepsilon_0} \frac{1}{\left|\vec{r}-\frac{\vec{s}}{2}\right|}+ \frac{-q}{4\pi \varepsilon_0} \frac{1}{\left|\vec{r}+\frac{\vec{s}}{2}\right|} = \frac{q}{4\pi \varepsilon_0} \left( \frac{1}{\left|\vec{r}-\frac{\vec{s}}{2}\right|}- \frac{1}{\left|\vec{r}+\frac{\vec{s}}{2}\right|} \right) = \frac{q}{4\pi \varepsilon_0} \left( \frac{\left|\vec{r}+\frac{\vec{s}}{2}\right|-\left|\vec{r}-\frac{\vec{s}}{2}\right|}{r^2}  \right)
+\end{equation*}
 
-$$
-V(\vec{r})=\frac{q}{4\pi \varepsilon_0} \frac{1}{|\vec{r}-\frac{\vec{s}}{2}|}+ \frac{-q}{4\pi \varepsilon_0} \frac{1}{|\vec{r}+\frac{\vec{s}}{2}|} = \frac{q}{4\pi \varepsilon_0} \left( \frac{1}{|\vec{r}-\frac{\vec{s}}{2}|}- \frac{1}{|\vec{r}+\frac{\vec{s}}{2}|} \right) = \frac{q}{4\pi \varepsilon_0} \left( \frac{|\vec{r}+\frac{\vec{s}}{2}|-|\vec{r}-\frac{\vec{s}}{2}|}{r^2}  \right)  
-$$
-riscrivendo $ |\vec{r}+\frac{\vec{s}}{2}|-|\vec{r}-\frac{\vec{s}}{2}| = s \cos\theta$ 
-si trova:
-$$
+Riscrivendo $\left|\vec{r}+\frac{\vec{s}}{2}\right|-\left|\vec{r}-\frac{\vec{s}}{2}\right| = s\cos\theta$ si trova:
+\begin{equation*}
 V(\vec{r}) = \frac{qs\cos{\theta}}{4\pi\varepsilon_0r^2}
-$$
-sapendo inoltre che $qs\cos\theta=\vec{p}\frac{\vec{r}}{r}$ si trova:
-$$
+\end{equation*}
+Sapendo inoltre che $qs\cos\theta=\vec{p}\frac{\vec{r}}{r}$ si trova:
+\begin{equation*}
 V(\vec{r}) = \frac{\vec{p}\cdot\vec{r}}{4\pi\varepsilon_0r^2}
-$$
-Il potenziale in approssimazione di dipolo, avendo ottenuto il potenziale utilizziamo la relazione $\vec{E}(\vec{r})=-\vec{\nabla}V(\vec{r})$ per ottenere il campo elettrico:
+\end{equation*}
 
-$$
+Nel limite di dipolo, avendo ottenuto il potenziale, utilizziamo la relazione $\vec{E}(\vec{r})=-\vec{\nabla}V(\vec{r})$ per ottenere il campo elettrico:
+\begin{equation*}
 \vec{E}(\vec{r})=\frac{3\vec{p}\vec{r}}{r^5}\cdot\vec{r} -\frac{\vec{p}}{r^3}
-$$
-Analizziamo quindi le caratteristiche di questo campo, (le formule trovate rappresentano bene anche dipoli reali, fintanto che non siano troppo vicini ai dipoli).
-Definiamo il piano equatoriale come il piano ortogonale al momento di dipolo $ \vec{p}$ e passante per il centro del dipolo .
-Studiamo quindi il campo elettrico in 2 zone particolari:
-\begin{itemize}
-    \item Sul piano equatoriale, abbiamo che $\vec{p} \perp\vec{r}$ per cui:
-    $$
-    \vec{E}(\vec{r}) = \frac{3\underbrace{\vec{p}\vec{r}}_{=0}}{r^5}\cdot\vec{r} -\frac{\vec{p}}{r^3} 
-    =\frac{-1}{4\pi\varepsilon_0}\frac{\vec{p}}{r^3}
-    $$
-    è solitamente lingo l'asse z e quindi sul piano le linne di forza saranno perpendicolari al piano.
-    \item sull'asse z, qua $\vec{p}\parallel\vec{r}$ per cui: 
-    $$
-    \vec{E}(\vec{r})= \frac{3\vec{p}\vec{r}}{r^5}\cdot\vec{r} -\frac{\vec{p}}{r^3} = \frac{1}{4\pi\varepsilon_0}  \left( \frac{3p r}{r^5}\cdot r -\frac{p}{r^3} \right)
-    $$
-    è tutto sulle z quindi:
-    $$
-    \vec{E}_z(0,0,z) = \frac{1}{4\pi\varepsilon_0}  \left( \frac{3p r}{r^5}\cdot r -\frac{p}{r^3} \right) = \frac{1}{2\pi\varepsilon_0} \frac{p}{z^3}    
-    $$
-    si nota ovviamente che prendendo una superficie gaussiana che contenga entrambe le cariche, il flusso del campo elettrico attraverso la superficie sarà nullo.
-\end{itemize}
+\end{equation*}
 
+Analizziamo quindi le caratteristiche di questo campo (le formule trovate rappresentano bene anche dipoli reali, fintanto che non siano troppo vicini al dipolo).\\
+Definiamo il piano equatoriale come il piano ortogonale al momento di dipolo $\vec{p}$ e passante per il centro del dipolo. Studiamo quindi il campo elettrico in due zone particolari:
+\begin{itemize}
+    \item Sul piano equatoriale abbiamo $\vec{p}\perp\vec{r}$ per cui:
+    \begin{equation*}
+    \vec{E}(\vec{r}) = \frac{3\underbrace{\vec{p}\vec{r}}_{=0}}{r^5}\cdot\vec{r} -\frac{\vec{p}}{r^3} =\frac{-1}{4\pi\varepsilon_0}\frac{\vec{p}}{r^3}
+    \end{equation*}
+    \noindent \`E solitamente lungo l'asse $z$ e quindi sul piano le linee di forza saranno perpendicolari al piano.
+    \item Sull'asse $z$, qui $\vec{p}\parallel\vec{r}$ per cui:
+    \begin{equation*}
+    \vec{E}(\vec{r})= \frac{3\vec{p}\vec{r}}{r^5}\cdot\vec{r} -\frac{\vec{p}}{r^3} = \frac{1}{4\pi\varepsilon_0}  \left( \frac{3p r}{r^5}\cdot r -\frac{p}{r^3} \right)
+    \end{equation*}
+    \noindent \`E tutto sull'asse $z$, quindi:
+    \begin{equation*}
+    \vec{E}_z(0,0,z) = \frac{1}{4\pi\varepsilon_0}  \left( \frac{3p r}{r^5}\cdot r -\frac{p}{r^3} \right) = \frac{1}{2\pi\varepsilon_0} \frac{p}{z^3}    
+    \end{equation*}
+    Si nota, ovviamente, che prendendo una superficie gaussiana che contenga entrambe le cariche, il flusso del campo elettrico attraverso la superficie sar\`a nullo.
+\end{itemize}
 
 \section{Momento di dipolo di un sistema}
-Ora si estende il concetto di dipolo ad un sistema di N cariche puntiformi, definendo quindi il momento di dipolo come:
-$$
+Ora si estende il concetto di dipolo a un sistema di $N$ cariche puntiformi, definendo quindi il momento di dipolo come:
+\begin{equation*}
 \vec{p}=\sum_i q_i\vec{r}_i
-$$
-si faccia presente che per semplificare il calcolo è possibile dividere il momento di dipolo così:
-$$
-\vec{p} = \vec{p_x}+\vec{p_y}+\vec{p_y}= \sum_i q_i\vec{r}_{x_i} + \sum_i q_i\vec{r}_{y_i} + \sum_i q_i\vec{r}_{z_i}  
-$$
-Notiamo se $\sum_i q_i = Q \neq 0$ (ovvero non è neutro), allora (in buona approssimazione) allontanandosi dal sistema di cariche, questo si comporterà come una carica puntiforme Q.
-Se invece se $\sum_i q_i = Q = 0$, allontanandosi il campo decade come $\frac{1}{r^3}$ (campo bipolare).
-\\
-Inoltre se si prende un altra origine (O') (diciamo traslata di una lunghezza a), il momento risulta:
-$$
+\end{equation*}
+Si faccia presente che, per semplificare il calcolo, \`e possibile decomporre il momento di dipolo come:
+\begin{equation*}
+\vec{p} = \vec{p}_x+\vec{p}_y+\vec{p}_z= \sum_i q_i\vec{r}_{x_i} + \sum_i q_i\vec{r}_{y_i} + \sum_i q_i\vec{r}_{z_i}  
+\end{equation*}
+Notiamo che se $\sum_i q_i = Q \neq 0$ (ovvero il sistema non \`e neutro), allora, in buona approssimazione, allontanandosi dal sistema di cariche questo si comporter\`a come una carica puntiforme $Q$.\\
+Se invece $\sum_i q_i = Q = 0$, allontanandosi il campo decade come $\frac{1}{r^3}$ (campo bipolare).
+
+Inoltre, se si prende un'altra origine $O'$ (diciamo traslata di un vettore $\vec{a}$), il momento risulta:
+\begin{equation*}
 \vec{p'}=\sum_i q_i\vec{r'}_i =  \sum_i q_i(\vec{r}_i+\vec{a})= \sum_i q_i\vec{r}_i + \vec{a}\sum_i q_i
-$$
-quindi se $\sum_i q_i = Q = 0$, il momento di dipolo è indipendente dalla scelta dell'origine  (polo).
-Si può quindi come già fatto in precedenza estendere il concetto ad una distribuzione volumetrica di carica: 
-$$
-\vec{p}= \int_\mathcal{V}\rho(\vec{r})\vec{r}d\mathcal{V}
-$$
-Il momento di dipolo elettrico (che non dipende da r) è quindi determinato dalla geometria della distribuzione di carica.
+\end{equation*}
+Quindi, se $\sum_i q_i = Q = 0$, il momento di dipolo \`e indipendente dalla scelta dell'origine (polo).\\
+Si pu\`o quindi, come gi\`a fatto in precedenza, estendere il concetto a una distribuzione volumetrica di carica:
+\begin{equation*}
+\vec{p}= \int_{\mathcal{V}}\rho(\vec{r})\vec{r}\,d\mathcal{V}
+\end{equation*}
+Il momento di dipolo elettrico (che non dipende da $\vec{r}$) \`e quindi determinato dalla geometria della distribuzione di carica.
 
 \section{Interazioni di dipolo in un campo elettrico di stimolo}
-Vediamo come si comporta un dipolo elettrico quando immerso nel campo elettrico di stimolo dato da una carica $q_s$.
+Vediamo come si comporta un dipolo elettrico quando è immerso nel campo elettrico di stimolo dato da una carica $q_s$.
 
-Iniziamo con il vedere quanto vale l'energia potenziale ricordando che $U(\vec{r})=qV(\vec{r})$, pertanto in questo caso:
-$$
-U(\vec{r})= qV_s(\vec{r}+d\vec{s})- q\underbrace{V_s(\vec{r})}_{\text{potenziale dato dalla 
-carica di stimolo}} =  q\left(V_s(\vec{r}+d\vec{s})- V_s(\vec{r})\right)
-$$
-$$
-\underbrace{q d\vec{S}}_{\vec{p}} \cdot \vec{\nabla}V_s(\vec{r}) = \vec{p}\cdot\vec{\nabla}V_s(\vec{r}) = -\vec{p}\cdot\vec{E}(\vec{r})
-$$
-Il significato del risultato trovato è che il campo elettrico di stimolo che agisce sulle cariche causerà una coppia di forze, che provocheranno una rotazione del dipolo.
+Iniziamo con il vedere quanto vale l'energia potenziale ricordando che $U(\vec{r})=qV(\vec{r})$; pertanto, in questo caso:
+\[
+U(\vec{r})= qV_s(\vec{r}+d\vec{s})- q\underbrace{V_s(\vec{r})}_{\text{potenziale dato dalla carica di stimolo}} =  q\bigl(V_s(\vec{r}+d\vec{s})- V_s(\vec{r})\bigr)
+\]
+Sviluppando al primo ordine in $d\vec{s}$ si ottiene
+\[
+q\,d\vec{s}\cdot\vec{\nabla}V_s(\vec{r}) = \vec{p}\cdot\vec{\nabla}V_s(\vec{r}) = -\vec{p}\cdot\vec{E}_s(\vec{r}).
+\]
+Il significato del risultato è che il campo elettrico di stimolo che agisce sulle cariche causa una coppia di forze che provoca la rotazione del dipolo.
+
 Si calcola quindi il momento delle forze ($\vec{C}$) agente sul dipolo:
-$$
-\vec{C}= \vec{r} \times
-\underbrace{(-q)\vec{E}_s(\vec{r})}_{\vec{F}} + (\vec{r} +d\vec{s}) \times
-(q)\vec{E}_s(\vec{r})  
-= -q\vec{r}\times\vec{E_s}(\vec{r})+ q\vec{r}\times\vec{E_s}(\vec{r})+qd\vec{s}\times \vec{E_s}(\vec{r})
-$$
-$$
-\vec{C}= \underbrace{qd\vec{s}}_{\vec{p}}\times\vec{E_s}(\vec{r}) = \vec{p}\times\vec{E_s}(\vec{r})
-$$
-e quindi $|\vec{C}|=pE_s(\vec{r})\sin{\theta}$
- Possiamo ora trovae il lavoro necessario per portare il dipolo da un angolo $\theta$ ad un angolo $\theta'$:
-$$
-L = \int_\theta^{\theta'}C(\theta)d\theta = \int_\theta^{\theta'}p E_s \sin{\theta}d\theta \underbrace{=}_{\text{supponendo un campo uniforme}} pE_s(\cos{\theta}-\cos{\theta'})= \Delta U
-$$
-il che conferma difatto quanto trovato per l'energia potenziale, abbiamo: $U(\theta) = -pE_s\cos\theta$.
+\begin{align*}
+\vec{C}
+&= \vec{r}\times\bigl((-q)\vec{E}_s(\vec{r})\bigr) + (\vec{r} + d\vec{s})\times\bigl(q\vec{E}_s(\vec{r})\bigr) \\
+&= -q\vec{r}\times\vec{E}_s(\vec{r}) + q\vec{r}\times\vec{E}_s(\vec{r}) + qd\vec{s}\times \vec{E}_s(\vec{r}) \\
+&= qd\vec{s}\times\vec{E}_s(\vec{r}) = \vec{p}\times\vec{E}_s(\vec{r}).
+\end{align*}
+Quindi $|\vec{C}|=p\,E_s(\vec{r})\sin\theta$.
+
+Possiamo ora trovare il lavoro necessario per portare il dipolo da un angolo $\theta$ ad un angolo $\theta'$:
+\[
+L = \int_\theta^{\theta'} C(\theta)\,d\theta = \int_\theta^{\theta'} p\,E_s\sin\theta\,d\theta
+= pE_s(\cos\theta-\cos\theta') = \Delta U,
+\]
+supponendo un campo uniforme. Ciò conferma quanto trovato per l'energia potenziale:
+\[
+U(\theta) = -pE_s\cos\theta.
+\]
+
 Vediamo alcuni casi particolari:
 \begin{itemize}
-    \item Paralleli, $\vec{p}\parallel\vec{E_s}$:\\
-    $U=-pE$, qui l'energia è minima e $\vec{C}=0$. Questo è quindi una configurazione di equilibrio stabile.
-    \item Antiparalleli (paralleli con versi opposti):\\ 
-    $U=pE$ qui l'energia è massima e $\vec{C}=0$, Questo è invece un equilibrio instabile, anche la minnima perturbazione lo farà spostare.
+    \item \textbf{Paralleli}, $\vec{p}\parallel\vec{E}_s$:\\
+    $U=-pE_s$; qui l'energia è minima e $\vec{C}=0$. È quindi una configurazione di equilibrio stabile.
+    \item \textbf{Antiparalleli} (versi opposti):\\
+    $U=+pE_s$; qui l'energia è massima e $\vec{C}=0$. È invece un equilibrio instabile: anche una minima perturbazione lo allontana.
 \end{itemize}
-Un dipolo in un campo elettrico tende a ruotare fino a raggiungere la posizione di equilibrio, e quindi $\vec{p}$ tende ad allinearsi in senso concorde con $\vec{E}_s$.
 
+Un dipolo in un campo elettrico tende a ruotare fino a raggiungere la posizione di equilibrio, quindi $\vec{p}$ tende ad allinearsi nello stesso verso di $\vec{E}_s$.
 
 \section{Forza ed energia elettrostatica}
-Prima di osservare alcune interazioni si ricordiamo come sono legate forza ed energia in elettrostatica: 
-$$
+Prima di osservare alcune interazioni ricordiamo come sono legate forza ed energia in elettrostatica:
+\[
 \begin{array}{cc}
-     &  U(\vec{r})=qV(\vec{r})\\
-     & F(\vec{r}) = q \vec{E} (\vec{r}) \\
+     &  U(\vec{r})=qV(\vec{r})\\[6pt]
+     & \vec{F}(\vec{r}) = q \vec{E} (\vec{r}) \\[6pt]
     & \vec{E}(\vec{r}) = -\vec{\nabla}V(\vec{r}) 
 \end{array}
-\quad
-\to 
-\quad
-F(\vec{r})= -\vec{\nabla}U(\vec{r})
-$$
-
+\quad\Rightarrow\quad
+\vec{F}(\vec{r})= -\vec{\nabla}U(\vec{r}).
+\]
 
 \subsection{Interazione dipolo-carica}
-Torniamo all'interazione tra dipolo e carica, scegliendo quale campo considerare di stimolo:
+Torniamo all'interazione tra dipolo e carica, scegliendo quale campo considerare di stimolo.
 
 \begin{itemize}
-    \item carica immersa nel campo di dipolo:\\
-    $$
-    U(\vec{r})=qV_s(\vec{r})=q \frac{1}{4\pi\varepsilon_0}\left( \frac{3\vec{p}\vec{r}}{r^5} -\frac{\vec{p}}{r^3}\right)
-    $$
-    dove $V_s$ è dato dal dipolo, possiamo quindi calcolare la forza agente sulla carica, dato che conosciamo il campo elettrico di dipolo:
-    $$
-    \vec{F}(\vec{r})= -\vec{\nabla}U(\vec{r})= q \vec{E_s}(\vec{r})= q \frac{1}{4\pi\varepsilon_0} \left( \frac{3\vec{p}\vec{r}}{r^5}-\frac{\vec{p}}{r^3}\right) 
-    $$
-    \item  Dipolo immerso nel campo della carica
-    $$
-    U (\vec{r}) = \vec{p} \vec{E_s}(\vec{r}) = -\vec{p}\frac{q}{4\pi\varepsilon_0}\frac{\vec{r}}{r^3}= -q \frac{1}{4\pi\varepsilon_0}\frac{\vec{p}\cdot\vec{r}}{r^3}
-    $$
-    Dove E è il campo della carica puntiforme, notiamo che il risultato ottenuto è uguale è all'energia del caso precedente. 
-    
+    \item \textbf{Carica immersa nel campo di dipolo:}\\
+    \[
+    U(\vec{r})=qV_s(\vec{r})
+    = q \frac{1}{4\pi\varepsilon_0}\left( \frac{3(\vec{p}\cdot\vec{r})\vec{r}}{r^5} -\frac{\vec{p}}{r^3}\right)
+    \]
+    dove $V_s$ è dato dal dipolo. Possiamo quindi calcolare la forza agente sulla carica, sapendo il campo elettrico di dipolo:
+    \[
+    \vec{F}(\vec{r})= -\vec{\nabla}U(\vec{r})= q \vec{E}_s(\vec{r})
+    = q \frac{1}{4\pi\varepsilon_0} \left( \frac{3(\vec{p}\cdot\vec{r})\vec{r}}{r^5}-\frac{\vec{p}}{r^3}\right).
+    \]
+    \item \textbf{Dipolo immerso nel campo della carica:}\\
+    \[
+    U (\vec{r}) = -\vec{p}\cdot\vec{E}_s(\vec{r}) = -\vec{p}\cdot\left(\frac{q}{4\pi\varepsilon_0}\frac{\vec{r}}{r^3}\right)
+    = -q \frac{1}{4\pi\varepsilon_0}\frac{\vec{p}\cdot\vec{r}}{r^3}.
+    \]
+    Si nota che il risultato ottenuto è uguale all'energia del caso precedente.
 \end{itemize}
-In questo caso non si calcola la forza perché con i dipoli ha significato parlare solo di momento delle forze
-
+In questo caso non si calcola la forza netta sul dipolo puntiforme, perché per i dipoli ha più senso discutere il momento delle forze (la coppia).
 
 \subsection{Interazioni tra due dipoli}
-Vediamo come due dipoli posti a distanza r interagiscono tra loro. 
-Consideriamo il dipolo 2 come immerso nel campo del dipolo 1. 
-Sia quindi $\vec{E}_s(\vec{r})$ il campo generato dal dipolo 1.
-Per l'energia si ha:
-$$
-U(\vec{r})= - \vec{p_2}\cdot\vec{E_s}(\vec{r}) = \vec{p_2}\cdot \left( \frac{3\vec{p_1\vec{r}}}{r^3}-\frac{\vec{-p_1}}{r^3} \right)\frac{1}{4\pi\varepsilon_0} = \left( -\frac{3(\vec{p_1}\cdot\vec{r}) (\vec{p_2}\cdot\vec{r})}{r^5}+\frac{\vec{p_2}\vec{p_1}}{r^3} \right) \frac{1}{4\pi\varepsilon_0}
-$$
+Vediamo come due dipoli posti a distanza $r$ interagiscono tra loro. Consideriamo il dipolo 2 come immerso nel campo del dipolo 1. Sia quindi $\vec{E}_s(\vec{r})$ il campo generato dal dipolo 1. Per l'energia si ha:
+\[
+U(\vec{r})= - \vec{p}_2\cdot\vec{E}_s(\vec{r})
+= \frac{1}{4\pi\varepsilon_0}\!\left(-\frac{3(\vec{p}_1\cdot\vec{r})(\vec{p}_2\cdot\vec{r})}{r^5}+\frac{\vec{p}_1\cdot\vec{p}_2}{r^3}\right).
+\]
 Vediamo quindi come varia l'energia in funzione della direzione e del verso dei momenti di dipolo:
-
 \begin{itemize}
-    \item Antiparalleli e perpendicolari ad r:\\
-    $$
-    U(\vec{r}) = \left( -\frac{3(\vec{p_1}\cdot\vec{r}) (\vec{p_2}\cdot\vec{r})}{r^5}+\frac{\vec{p_2}\vec{p_1}}{r^3} \right) \frac{1}{4\pi\varepsilon_0} = -\frac{1}{4\pi\varepsilon_0}\frac{p_1p_2}{r^3}
-    $$ 
-    dove il primo termine è zero ed il secondo negativo, essendo un energia negativa se avviciniamo i 2 dipoli l'energia aumenta in modulo, i dipoli quindi si attraggono ( perché $F(\vec{r})= -\vec{\nabla}U(\vec{r})$) e l'energia diminuisce quando si avvicinano.
-    \item Paralleli e paralleli ad r
-    $$
-    U(\vec{r})= \frac{-1}{4\pi\varepsilon_0}\frac{2p_1p_2}{r^3}
-    $$
-    Anche in questo caso si ha un attrazione e  l'energia sarà negativa.
-    \item Paralleli e perpendicolari ad r:\\
-    $$
-    U(\vec{r})= \frac{1}{4\pi\varepsilon_0}\frac{p_1p_2}{r^3}
-    $$
-    In questo caso l'energia aumenta all'avvicinarsi dei dipoli e la 
-    forza risulta repulsiva 
-    \item Antiparalleli e paralleli a r:\\
-    $$
-    U(\vec{r})=\frac{1}{4\pi\varepsilon_0}\frac{2p_1p_2}{r^3}
-    $$
-    Quindi in questo caso si ha energia positiva ed una repulsione
+    \item \textbf{Antiparalleli e perpendicolari a $\vec{r}$:}\\
+    \[
+    U(\vec{r}) = -\frac{1}{4\pi\varepsilon_0}\frac{p_1p_2}{r^3},
+    \]
+    dove il primo termine è zero e il secondo è negativo: avvicinando i due dipoli l'energia diventa più negativa, quindi i dipoli si attraggono (dato che $\vec{F}(\vec{r})= -\vec{\nabla}U(\vec{r})$).
+    \item \textbf{Paralleli e paralleli a $\vec{r}$:}\\
+    \[
+    U(\vec{r})= -\frac{1}{4\pi\varepsilon_0}\frac{2p_1p_2}{r^3},
+    \]
+    anche in questo caso si ha attrazione e l'energia è negativa.
+    \item \textbf{Paralleli e perpendicolari a $\vec{r}$:}\\
+    \[
+    U(\vec{r})= \frac{1}{4\pi\varepsilon_0}\frac{p_1p_2}{r^3},
+    \]
+    qui l'energia aumenta avvicinando i dipoli e la forza risulta repulsiva.
+    \item \textbf{Antiparalleli e paralleli a $\vec{r}$:}\\
+    \[
+    U(\vec{r})=\frac{1}{4\pi\varepsilon_0}\frac{2p_1p_2}{r^3},
+    \]
+    quindi energia positiva e repulsione.
 \end{itemize}
-I dipoli sono anche importanti perchè spesso atomi o molecole neutre hanno un momento di dipolo.
+I dipoli sono importanti anche perché spesso atomi o molecole neutre possiedono un momento di dipolo.
+
+
+
 
 
 \chapter{Correnti elettriche e campo di polarizzazione}
