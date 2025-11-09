@@ -475,4 +475,458 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box64
 \enit@count@id=\count315
 \enitdp@description=\count316
-) (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypat
+) (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen272
+\pgfarrowlength=\dimen273
+\pgfarrowwidth=\dimen274
+\pgfarrowlinewidth=\dimen275
+) (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen276
+\pgfdecoratedremainingdistance=\dimen277
+\pgfdecoratedinputsegmentcompleteddistance=\dimen278
+\pgfdecoratedinputsegmentremainingdistance=\dimen279
+\pgf@decorate@distancetomove=\dimen280
+\pgf@decorate@repeatstate=\count317
+\pgfdecorationsegmentamplitude=\dimen281
+\pgfdecorationsegmentlength=\dimen282
+)
+\tikz@lib@dec@box=\box65
+) (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count318
+\l__siunitx_number_exponent_fixed_int=\count319
+\l__siunitx_number_min_decimal_int=\count320
+\l__siunitx_number_min_integer_int=\count321
+\l__siunitx_number_round_precision_int=\count322
+\l__siunitx_number_lower_threshold_int=\count323
+\l__siunitx_number_upper_threshold_int=\count324
+\l__siunitx_number_group_first_int=\count325
+\l__siunitx_number_group_size_int=\count326
+\l__siunitx_number_group_minimum_int=\count327
+\l__siunitx_angle_tmp_dim=\dimen283
+\l__siunitx_angle_marker_box=\box66
+\l__siunitx_angle_unit_box=\box67
+\l__siunitx_compound_count_int=\count328
+
+(C:\Program Files\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box68
+\l__siunitx_table_tmp_dim=\dimen284
+\l__siunitx_table_column_width_dim=\dimen285
+\l__siunitx_table_integer_box=\box69
+\l__siunitx_table_decimal_box=\box70
+\l__siunitx_table_uncert_box=\box71
+\l__siunitx_table_before_box=\box72
+\l__siunitx_table_after_box=\box73
+\l__siunitx_table_before_dim=\dimen286
+\l__siunitx_table_carry_dim=\dimen287
+\l__siunitx_unit_tmp_int=\count329
+\l__siunitx_unit_position_int=\count330
+\l__siunitx_unit_total_int=\count331
+ (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen288
+\ar@mcellbox=\box74
+\extrarowheight=\dimen289
+\NC@list=\toks43
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box75
+)) (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count332
+\l__pdf_internal_box=\box76
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+ (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count333
+\scratchdimen=\dimen290
+\scratchbox=\box77
+\nofMPsegments=\count334
+\nofMParguments=\count335
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count336
+\MPscratchDim=\dimen291
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
+\everyMPtoPDFconversion=\toks45
+) (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.2056pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \it@ocap on input line 22.
+LaTeX Info: Redefining \it@ccap on input line 22.
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting
+italian.ldf    on input line 22.
+
+Package hyperref Info: Link coloring OFF on input line 22.
+(main.out) (main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+ (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+ (C:\Users\standard\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+{C:/Users/standard/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+
+]
+<Immagini/morgante.jpg, id=570, 458.46281pt x 210.03468pt>
+File: Immagini/morgante.jpg Graphic file (type jpg)
+<use Immagini/morgante.jpg>
+Package pdftex.def Info: Immagini/morgante.jpg  used on input line 36.
+(pdftex.def)             Requested size: 330.42041pt x 151.38188pt.
+ [3 <./Immagini/morgante.jpg>] [4
+
+] (main.toc [5] [6]
+Overfull \hbox (1.88896pt too wide) detected at line 141
+\OT1/cmr/m/n/10 18.-18.0 
+ []
+
+
+Overfull \hbox (1.88896pt too wide) detected at line 142
+\OT1/cmr/m/n/10 18.-18.1 
+ []
+
+[7]
+Overfull \hbox (1.88896pt too wide) detected at line 143
+\OT1/cmr/m/n/10 18.-18.2 
+ []
+
+
+Overfull \hbox (1.88896pt too wide) detected at line 144
+\OT1/cmr/m/n/10 18.-18.3 
+ []
+
+
+Overfull \hbox (1.88896pt too wide) detected at line 145
+\OT1/cmr/m/n/10 18.-18.4 
+ []
+
+)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [8]
+Capitolo 1.
+[9
+
+] [10] [11] [12
+
+]
+Capitolo 2.
+[13] [14] [15] [16
+
+]
+Capitolo 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--379
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--390
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 399--406
+
+ []
+
+[18]
+Capitolo 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 446.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 446.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--452
+
+ []
+
+[19
+
+] [20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 638--642
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--642
+
+ []
+
+[22]
+<Immagini/Relazioni.png, id=823, 448.67625pt x 373.395pt>
+File: Immagini/Relazioni.png Graphic file (type png)
+<use Immagini/Relazioni.png>
+Package pdftex.def Info: Immagini/Relazioni.png  used on input line 680.
+(pdftex.def)             Requested size: 330.42041pt x 274.99184pt.
+ [23 <./Immagini/Relazioni.png>] [24
+
+]
+Capitolo 5.
+[25] [26] [27] [28]
+Capitolo 6.
+[29
+
+] [30]
+Missing character: There is no + in font nullfont!
+[31] [32] [33] [34
+
+]
+Capitolo 7.
+[35] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1238
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1266--1267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1276--1277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1282--1283
+
+ []
+
+[38]
+Capitolo 8.
+[39
+
+] [40] [41] [42
+
+]
+Capitolo 9.
+[43] [44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 1645--1649
+
+ []
+
+[46]
+Capitolo 10.
+[47
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1752.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\to' on input line 1752.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1752.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1752.
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1797--1802
+
+ []
+
+[49] [50] [51] [52] [53] [54
+
+]
+Capitolo 11.
+[55] [56]
+Underfull \hbox (badness 10000) in paragraph at lines 2129--2134
+
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 2191--2196
+
+ []
+
+[58]
+Capitolo 12.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2219.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2219.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2221.
+
+[59
+
+] [60] [61] [62] [63] [64
+
+]
+Capitolo 13.
+[65] [66
+
+]
+Capitolo 14.
+[67] [68
+
+]
+Capitolo 15.
+[69] [70
+
+]
+Capitolo 16.
+[71] [72
+
+]
+Capitolo 17.
+[73] [74
+
+]
+Capitolo 18.
+[75] [76]
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2638--2648
+
+ []
+
+[77] [78]
+Underfull \hbox (badness 10000) in paragraph at lines 2728--2741
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2755--2763
+
+ []
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 2765--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2765--2774
+
+ []
+
+[80] (main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: ED3D236EA51691E2DBA6E81488E95F83;26751.
+ ) 
+Here is how much of TeX's memory you used:
+ 27534 strings out of 474486
+ 562216 string characters out of 5742338
+ 1951542 words of memory out of 5000000
+ 49123 multiletter control sequences out of 15000+600000
+ 580045 words of font info for 116 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,19n,87p,721b,1201s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\standard\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/standard/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (80 pages, 812264 bytes).
+PDF statistics:
+ 1307 PDF objects out of 1440 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 1131 words of extra memory for PDF output out of 10000 (max. 10000000)
+
