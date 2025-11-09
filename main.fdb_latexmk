@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1762690149.38664 "c:/Users/standard/Desktop/Elettromagnetismo/main.tex" "main.pdf" "main" 1762690155.13018 0
+["pdflatex"] 1762695053.60933 "c:/Users/standard/Desktop/Elettromagnetismo/main.tex" "main.pdf" "main" 1762695057.27736 0
   "C:/Program Files/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
   "C:/Program Files/MiKTeX/tex/generic/bitset/bitset.sty" 1575926576 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
   "C:/Program Files/MiKTeX/tex/generic/gettitlestring/gettitlestring.sty" 1576433666 8371 9d55b8bd010bc717624922fb3477d92e ""
@@ -209,11 +209,11 @@
   "C:/Users/standard/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "Immagini/Relazioni.png" 1762689656 68362 7f61b9d0a8af376b2d2b46d8e8745020 ""
   "Immagini/morgante.jpg" 1761410226 70407 89cfd163ef106b0b501638ef49e9978b ""
-  "c:/Users/standard/Desktop/Elettromagnetismo/main.tex" 1762690141 141985 d8c1c70d2c4feb9dd52fe212bddaf214 ""
-  "main.aux" 1762690154 20765 9963759a1681ae58f9c7d3ffea4170c0 "pdflatex"
-  "main.out" 1762690154 26751 ed3d236ea51691e2dba6e81488e95f83 "pdflatex"
-  "main.tex" 1762690141 141985 d8c1c70d2c4feb9dd52fe212bddaf214 ""
-  "main.toc" 1762690154 12922 727787ab992fc4e55f20230470b5b02e "pdflatex"
+  "c:/Users/standard/Desktop/Elettromagnetismo/main.tex" 1762695049 142021 3f4bb3c5a4185a64134a2a69495fdf70 ""
+  "main.aux" 1762695056 20765 9963759a1681ae58f9c7d3ffea4170c0 "pdflatex"
+  "main.out" 1762695056 26751 ed3d236ea51691e2dba6e81488e95f83 "pdflatex"
+  "main.tex" 1762695049 142021 3f4bb3c5a4185a64134a2a69495fdf70 ""
+  "main.toc" 1762695056 12922 727787ab992fc4e55f20230470b5b02e "pdflatex"
   (generated)
   "main.aux"
   "main.log"
