@@ -342,8 +342,22 @@ Con campi elettrici:
 \]
 
 \section{Esempi}
+\section{Teorema di Helmotz}
+Supponiamo che D($\vec{r}$) sia una funzione tale che $\nabla \cdot \vec{F(\vec{r})}=D(\vec{r})$ dove $\vec{F(\vec{r})}$ è una funzione vettoriale.
+Inoltre supponiamo ch $\nabla \times \vec{F(\vec{r})}= \vec{C}(\vec{r})$ con $\vec{C(\vec{r})}$ con divergenza nulla (per definizione).
 
+Vogliamo determinare $\vec{F(\vec{r})}$ dati tali $D(\vec{r})$ e $\vec{C(\vec{r})}$, ovvero vorremmo dimostrare che:
+\[
+\vec{F(\vec{r})} = - \nabla U (\vec{r}) + \nabla \times \vec{W(\vec{r})}\\
+\text{dove}
+U(\vec{r}) = \frac{1}{4 \pi} \int \frac{D(\vec{r'})}{|\vec{r}-\vec{r'}|} d\vec{\tau'}\\
+W(\vec{r}) = \frac{1}{4 \pi} \int \frac{\vec{C(\vec{r'})}}{|\vec{r}-\vec{r'}|} d\vec{\tau'}
+\]
+gli integrali sono su tutto lo spazio, calcoliamo divergenza e rotore di $\vec{F(\vec{r})}$
+\[
+\nabla \cdot F = - \nabla^2 U = - \frac{1}{4 \pi} \int D(\vec{r'}) \nabla \frac{1}{|\vec{r}-\vec{r'}|} d\vec{\tau'}
 
+\]
 \chapter{Legge di Gauss}
 \section{Linee di forza del campo elettrico}
 
@@ -379,6 +393,7 @@ Lungo il piano equatoriale, il campo avrà una risultante parallela al piano ste
 
 È interessante notare che, allontanandosi molto dal sistema, la distanza tra le due cariche diventa trascurabile, al punto da non poter più distinguere se si tratta di due cariche o di una sola.  
 In tal caso, le linee di forza delle due cariche tendono asintoticamente a configurarsi come linee di forza radiali che partono dal punto centrale tra le due cariche.  
+
 
 
 \section{Legge di Gauss}
