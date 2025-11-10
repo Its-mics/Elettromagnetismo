@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.24)  9 NOV 2025 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.24)  10 NOV 2025 08:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -720,53 +720,9 @@ Capitolo 2.
 [13]
 
 [14]
-c:/Users/manue/Documents/UNIVERSITA'/II ANNO/Elettromagnetismo/main.tex:359: Missing $ inserted.
-<inserted text> 
-                $
-l.359 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/manue/Documents/UNIVERSITA'/II ANNO/Elettromagnetismo/main.tex:359: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.359 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-c:/Users/manue/Documents/UNIVERSITA'/II ANNO/Elettromagnetismo/main.tex:360: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 \]
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-c:/Users/manue/Documents/UNIVERSITA'/II ANNO/Elettromagnetismo/main.tex:360: Missing $ inserted.
-<inserted text> 
-                $
-l.360 \]
-        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/manue/Documents/UNIVERSITA'/II ANNO/Elettromagnetismo/main.tex:360: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.360 \]
-        
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+Overfull \hbox (7.22261pt too wide) in paragraph at lines 390--392
+[]\OT1/cmr/m/n/10 Dunque va-len-do $\OMS/cmsy/m/n/10 r ^^A [][] \OT1/cmr/m/n/10 = [][](\OML/cmm/m/it/10 r[][]\OT1/cmr/m/n/10 ) = [][]1 = 0$ ma al-lo stes-so tem-po $[] [][]\OML/cmm/m/it/10 d[] \OT1/cmr/m/n/10 = [] [][]\OML/cmm/m/it/10 R[] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 d^^Rd^^^[] \OT1/cmr/m/n/10 =
+ []
 
 
 
@@ -777,24 +733,24 @@ So I shall assume that you typed `$$' both times.
 ]
 Capitolo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--385
+Underfull \hbox (badness 10000) in paragraph at lines 418--425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--393
+Underfull \hbox (badness 10000) in paragraph at lines 428--433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--405
+Underfull \hbox (badness 10000) in paragraph at lines 440--445
 
  []
 
 
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 414--421
+Underfull \hbox (badness 10000) in paragraph at lines 454--461
 
  []
 
@@ -804,14 +760,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--421
 Capitolo 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 461.
+(hyperref)                removing `math shift' on input line 501.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 461.
+(hyperref)                removing `math shift' on input line 501.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--467
+Underfull \hbox (badness 10000) in paragraph at lines 502--507
 
  []
 
@@ -824,22 +780,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 462--467
 [20]
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 653--657
+Underfull \hbox (badness 10000) in paragraph at lines 693--697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--657
+Underfull \hbox (badness 10000) in paragraph at lines 693--697
 
  []
 
 
 
 [22]
-<Immagini/Relazioni.png, id=823, 448.67625pt x 373.395pt>
+<Immagini/Relazioni.png, id=826, 448.67625pt x 373.395pt>
 File: Immagini/Relazioni.png Graphic file (type png)
 <use Immagini/Relazioni.png>
-Package pdftex.def Info: Immagini/Relazioni.png  used on input line 695.
+Package pdftex.def Info: Immagini/Relazioni.png  used on input line 735.
 (pdftex.def)             Requested size: 330.42041pt x 274.99184pt.
 
 
@@ -876,34 +832,34 @@ Missing character: There is no + in font nullfont!
 [33]
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 1248--1249
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1289
 
  []
 
 
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 1258--1259
+Underfull \hbox (badness 10000) in paragraph at lines 1298--1299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1276
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1280--1281
+Underfull \hbox (badness 10000) in paragraph at lines 1320--1321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1285--1286
+Underfull \hbox (badness 10000) in paragraph at lines 1325--1326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1331
 
  []
 
@@ -932,7 +888,7 @@ Capitolo 8.
 [42]
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 1656--1660
+Underfull \hbox (badness 10000) in paragraph at lines 1696--1700
 
  []
 
@@ -947,24 +903,24 @@ Capitolo 9.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1763.
+(hyperref)                removing `math shift' on input line 1803.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 1763.
+(hyperref)                removing `\to' on input line 1803.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1763.
+(hyperref)                removing `subscript' on input line 1803.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1763.
+(hyperref)                removing `math shift' on input line 1803.
 
 
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 1808--1813
+Underfull \hbox (badness 10000) in paragraph at lines 1848--1853
 
  []
 
@@ -989,14 +945,14 @@ Capitolo 10.
 [53]
 
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2145
+Underfull \hbox (badness 10000) in paragraph at lines 2180--2185
 
  []
 
 
 
 [55]
-Underfull \hbox (badness 10000) in paragraph at lines 2202--2207
+Underfull \hbox (badness 10000) in paragraph at lines 2242--2247
 
  []
 
@@ -1006,15 +962,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2202--2207
 Capitolo 11.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2230.
+(hyperref)                removing `math shift' on input line 2270.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2230.
+(hyperref)                removing `math shift' on input line 2270.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2232.
+(hyperref)                removing `math shift' on input line 2272.
 
 
 
@@ -1079,12 +1035,12 @@ Capitolo 17.
 [73]
 
 [74]
-Underfull \hbox (badness 10000) in paragraph at lines 2639--2643
+Underfull \hbox (badness 10000) in paragraph at lines 2679--2683
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2649--2659
+Underfull \hbox (badness 10000) in paragraph at lines 2689--2699
 
  []
 
@@ -1093,24 +1049,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 2649--2659
 [75]
 
 [76]
-Underfull \hbox (badness 10000) in paragraph at lines 2739--2752
+Underfull \hbox (badness 10000) in paragraph at lines 2779--2792
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2766--2774
+Underfull \hbox (badness 10000) in paragraph at lines 2806--2814
 
  []
 
 
 
 [77]
-Underfull \hbox (badness 10000) in paragraph at lines 2776--2785
+Underfull \hbox (badness 10000) in paragraph at lines 2816--2825
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2776--2785
+Underfull \hbox (badness 10000) in paragraph at lines 2816--2825
 
  []
 
@@ -1125,17 +1081,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4C106F55FE5494B2D23AD4F68DE37F11;26747.
  ) 
 Here is how much of TeX's memory you used:
- 27601 strings out of 469959
- 563533 string characters out of 5469834
- 917895 words of memory out of 5000000
- 53700 multiletter control sequences out of 15000+600000
+ 27603 strings out of 469959
+ 563591 string characters out of 5469834
+ 919894 words of memory out of 5000000
+ 53702 multiletter control sequences out of 15000+600000
  648801 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,19n,87p,742b,1196s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\manue\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (78 pages, 811872 bytes).
+ <C:\Users\manue\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (78 pages, 845400 bytes).
 PDF statistics:
- 1299 PDF objects out of 1440 (max. 8388607)
+ 1314 PDF objects out of 1440 (max. 8388607)
  279 named destinations out of 1000 (max. 500000)
  1131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
