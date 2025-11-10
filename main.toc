@@ -86,7 +86,6 @@
 \contentsline {section}{\numberline {9.5}Polarizzazione di una sfera dielettrica}{51}{section.9.5}%
 \contentsline {chapter}{\numberline {10}Magnetismo}{53}{chapter.10}%
 \contentsline {section}{\numberline {10.1}Introduzione}{53}{section.10.1}%
-\contentsline {subsection}{\numberline {10.1.1}Momento di dipolo magnetico}{53}{subsection.10.1.1}%
 \contentsline {section}{\numberline {10.2}Legge di Biot--Savart}{53}{section.10.2}%
 \contentsline {section}{\numberline {10.3}II equazione di Maxwell }{54}{section.10.3}%
 \contentsline {section}{\numberline {10.4}Forza di Lorentz}{54}{section.10.4}%
@@ -98,12 +97,14 @@
 \contentsline {section}{\numberline {11.4}Esempi}{60}{section.11.4}%
 \contentsline {chapter}{\numberline {12}Potenziale vettore di Amp\`ere}{63}{chapter.12}%
 \contentsline {section}{\numberline {12.1}Esempi}{63}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Legge di Biot--Savart}{63}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Esempi aggiuntivi}{63}{section.12.3}%
-\contentsline {section}{\numberline {12.4}Interazioni magnetiche}{63}{section.12.4}%
+\contentsline {section}{\numberline {12.2}Esempi aggiuntivi}{63}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Interazioni magnetiche}{63}{section.12.3}%
 \contentsline {chapter}{\numberline {13}Come i materiali reagiscono ai campi magnetici di stimolo}{65}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Relazione costitutiva interna}{65}{section.13.1}%
-\contentsline {section}{\numberline {13.2}Misure di suscettivit\`a magnetica}{65}{section.13.2}%
+\contentsline {section}{\numberline {13.1}Introduzione}{65}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Momento di dipolo magnetico}{65}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}Forza su un dipolo magnetico}{66}{subsection.13.2.1}%
+\contentsline {section}{\numberline {13.3}Relazione costitutiva interna}{66}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Misure di suscettivit\`a magnetica}{66}{section.13.4}%
 \contentsline {chapter}{\numberline {14}Strumenti e applicazioni}{67}{chapter.14}%
 \contentsline {section}{\numberline {14.1}Amperometro}{67}{section.14.1}%
 \contentsline {subsection}{\numberline {14.1.1}Misure stazionarie di conducibilit\`a}{67}{subsection.14.1.1}%

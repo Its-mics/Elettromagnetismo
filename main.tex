@@ -8,10 +8,17 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{tikz} % QUesto è per i Grafici 
+\usepackage{tikz-3dplot} 
 \usepackage{enumitem}
 \usetikzlibrary{patterns}
-\usetikzlibrary{arrows.meta,calc,positioning,decorations.pathreplacing}
+\usetikzlibrary{decorations.markings,arrows.meta,calc,positioning,decorations.pathreplacing}
 \usepackage{siunitx}
+\tikzset{
+  current arrow/.style={
+    decoration={markings, mark=at position 0.6 with {\arrow{Latex[length=3mm,width=2mm]}}},
+    postaction={decorate}
+  }
+}
 
 \title{ELETTROMAGNETISMO: piselli, erezioni e cazzi \\ cit. morgante}
 
@@ -410,7 +417,6 @@ Calcoliamo il secondo termine:
 Rimane da dimostrare che il primo termine si annulla:
 \[
 \nabla \cdot \vec{W}(\vec{r}) = \frac{1}{4 \pi} \int \vec{C}(\vec{r'}) \cdot \nabla \frac{1}{|\vec{r}-\vec{r'}|} d\tau' = - \frac{1}{4 \pi} \int \vec{C}(\vec{r'}) \cdot \nabla' \frac{1}{|\vec{r}-\vec{r'}|} d\tau'
-
 = - \frac{1}{4 \pi} \int \nabla' \cdot \left( \vec{C}(\vec{r'})\right)  \frac{1}{|\vec{r}-\vec{r'}|} d\tau' + \frac{1}{4 \pi} \int  \cdot \vec{C}(\vec{r'}) \nabla'\left( \frac{1}{|\vec{r}-\vec{r'}|} \right) d\tau'
 \]
 
@@ -2109,15 +2115,6 @@ la cui forma integrale implica che il flusso magnetico uscente da qualsiasi supe
 \oint_{S}\vec B\cdot d\vec S = 0.
 \end{equation}
 
-\subsection{Momento di dipolo magnetico}
-
-Un dipolo magnetico possiede un momento magnetico vettoriale $\vec m$ e subisce una coppia (momento delle forze) se immerso in un campo magnetico esterno $\vec B$:
-\begin{equation}
-\vec C = \vec m \times \vec B.
-\end{equation}
-
-L'analogia con il dipolo elettrico (momento di dipolo elettrico $\vec p$ e coppia $\vec p\times\vec E$) \`e utile ma occorre ricordare che le sorgenti magnetiche sono correnti piuttosto che cariche libere isolate.
-
 \section{Legge di Biot--Savart}
 
 Definiamo la \textit{corrente stazionaria} come un flusso di cariche continuo nel tempo; essa caratterizza campi magnetici statici e questo regime prende il nome di \textbf{magnetostatica}. Le condizioni per la magnetostatica sono
@@ -2241,6 +2238,7 @@ Poiché un campo vettoriale con divergenza nulla può essere scritto come rotore
 \[
 \boxed{\;\vec{J}_{\!m}(t,\vec{r}) = \nabla\times\vec{M}(t,\vec{r})\;}.
 \]
+\footnote{vedere l'equazione \eqref{eq:potenziale_vettore} nella prossima sezione FINIRE}
 Questo è il campo di magnetizzazione: \(\vec{M}\) rappresenta la densità di momento magnetico per unità di volume. In molti materiali \(\vec{M}\) è (quasi sempre) uniforme all'interno e risulta nullo all'esterno, in quanto non si hanno correnti al di fuori del materiale (tuttavia può cambiare da un punto all'altro).
 \\
 Possiamo pertanto definire la corrente magnetica racchiusa da una superficie \(S\) (con bordo \(\gamma_s\)) come
@@ -2279,8 +2277,34 @@ Si nota inoltre che, facendo tendere i due lati perpendicolari a lunghezza nulla
 
 \item Prendendo due cubi uno sopra l'altro con la corrente che sta sulla superficie del primo (uguale anche sul secondo di ugual materiale), le correnti sulle facce appaiate sono opposte e si annullano a vicenda, restando solo il contributo sulla superficie esterna complessiva.
 
+  \item prendiamo un materiale con delle piccole correnti rappresentate da piccoli percorsi chiusi, come nel caso precedente quelle adiacenti si eliminano
+Ci chiediamo quale sia la corrente in termini di $\vec M$, abbiamo che:
+\begin{itemize}
+  \item dati $A$ l'area della faccia del cubo e $l$ l'altezza del cubo,
+  \item $m=MAl$
+  \item $m=IA$
 \end{itemize}
+Da cui si ottiene che $I=Mt$, la densità di corrente è $K_m=\frac{I}{t}=M$, poichè deve avere
+verso uguale a quello della corrente avremo: $\vec \sigma_m=\vec M \times \hat n$. Questa espressioe ci dice anche
+che non vi è corrente sulla faccia (come previsto) poiche ivi $\vec M \parallel \hat n$
 
+\item Se pensiamo invece a due cubi con corrente non identica nella superfice di contatto avremo una corrente:
+\[
+I_x = (M_z(y+dy)-M_y(y))dz = \frac{\partial M_z}{\partial y} dy dz,
+\]
+a cui corrisponde una densità di corrente: $J_m(x)=\frac{\partial M_z}{\partial y}$
+
+Se aggiungiamo un altro cubo su un altra faccia ho un altro contributo (opposto): $- \frac{\partial M_y}{\partial z}$, dunque:
+\[
+J_m(x)=\frac{\partial M_z}{\partial y} - \frac{\partial M_y}{\partial z},
+\]
+e più in generale:
+\[
+\vec{J_m} = \nabla times \vec M
+\]
+che conferma $\nabla \cdot \vec J_m = 0$
+
+\end{itemize}
 
 
 
@@ -2525,12 +2549,294 @@ Proviamo ora a risolvere dei casi.
 
 
 \chapter{Potenziale vettore di Amp\`ere}
+Dal fatto che $\nabla \cdot \vec B = 0 $ possiamo introdurre un \textit{potenziale vettore} $\vec{A}$ 
+\[
+\vec B = \nabla \times \vec A
+\]
+Dalla legge di Ampère si ha che: 
+\begin{equation}
+  \nabla \times \vec B = \nabla \times (\nabla \vec A) = \nabla (\nabla \cdot A) - \nabla^2 A = \mu_0 \vec J
+\label{eq:nabla}
+\end{equation}
+ovviamente ad esso possiamo aggiungere una qualsiasi funzione tale che essa abbia rotore nullo senza cambiare alterare $\vec B$.
+Utilizzermo ciò per affermare che $\nabla \cdot A =0 $:
+\begin{enumerate}
+  \item Supponiamo che $\nabla \cdot A_0 \neq 0$
+  \item Se aggiungiamo a $A_0$ un gradiente di una funzione scalare $\psi$ otteniamo:
+  \[
+  \nabla \cdot A = \nabla \cdot A_0 + \nabla^2 \psi
+  \]
+  \item Poniamo ora che $\nabla^2 \psi = - \nabla \cdot A_0$ in modo che $\nabla \cdot A =0$,
+  ciò è matematicamente uguale a risolvere $\nabla^2 V = - \frac{\rho}{\varepsilon_0}$
+  \item Quest'ultima la sappiamo risolvere $V= \frac{1}{4 \pi\varepsilon_0}\int \frac{\rho}{|\vec r - \vec r'|}d\tau'$ (assumendo che $\rho \to 0$ per $r \to \infty$)
+  \item Dunque se $\nabla \cdot A_0 \to0 $ per $r \to \infty$ abbiamo la soluzione simile:
+  \[
+  \psi= \frac{1}{4\varepsilon_0}\int \frac{\nabla \cdot A_0}{|\vec r - \vec r'|}d\tau'
+  \]
+  \item Se ciò non accade abbiamo altri modi per trovare $\psi$ (come quando la distribuzione di carica era infinita)
+\end{enumerate}
+In conclusione: possiamo porre $\nabla \cdot A =0$ senza perdita di generalità.
+
+Dunque la \eqref{eq:nabla} diventa:
+\[ \nabla^2 A = \mu_0 \vec J
+\]
+che è l'equazione di Poisson! Dunque abbiamo già la soluzione (assumendo che $\vec J \to 0$ per $r \to \infty$):
+\begin{equation}
+\vec A (\vec r) = \frac{\mu_0}{4 \pi} \int \frac{\vec J(\vec r')}{|\vec r - \vec r'|} d\tau'
+\label{eq:potenziale_vettore}
+\end{equation}
+poichè solitamente le correnti puntano nella stessa direzione la direzione di $\vec A$ sarà la stessa della corrente.
 \section{Esempi}
-\section{Legge di Biot--Savart}
 \section{Esempi aggiuntivi}
 \section{Interazioni magnetiche}
 
 \chapter{Come i materiali reagiscono ai campi magnetici di stimolo}
+\section{Introduzione}
+Le "correnti magnetiche" presenti nei materiali sono talmente piccole da poter essere considerate come dei dipoli (magnetici). 
+Un materiale viene \textit{magnetizzato} quando, dopo l'applicazione di un campo magnetico, questi dipoli si orientano. Divideremo i materiali in:
+\begin{itemize}
+  \item paramegneti: la magnetizzazzione è parallela a $\vec{B}(\vec{r})$
+  \item diamagneti: la magnetizzazione è opposta a $\vec{B}(\vec{r})$
+  \item ferromagneti: la magnetizzazione rimane anche dopo la rimozione di $\vec{B}(\vec{r})$
+\end{itemize}
+\section{Momento di dipolo magnetico}
+
+
+Un dipolo magnetico possiede un momento magnetico vettoriale $\vec m$ ($M=\frac{ \vec m }{ d\tau}$) e subisce una coppia (momento delle forze) se immerso in un campo magnetico esterno $\vec B$,
+proviamo a calcolarlo per un filo percorso da corrente $I$. Usando la regola della mano destra il circuito subirà una forza $\vec{F}_{mag}$ (si annulla vettorialmente) la quale tenderà a estendere il circuito (non a ruotarlo)
+per ogni punto agli estremi avremo:
+\begin{equation*}
+\vec C= l F_{mag}\sin\theta \hat{x}\\
+\quad \text{dove} \quad F_{mag}=I l B \\
+\vec C = IabB \sin\theta \hat{x} = mB\sin\theta \hat{x} = \vec m \times \vec B.
+\end{equation*}
+Dove $\vec m$ \`e il momento magnetico del dipolo e $m = Iab$. 
+\tdplotsetmaincoords{60}{20} 
+\begin{center}
+\begin{tikzpicture}[tdplot_main_coords, scale=3,
+    axis/.style={->,very thick,>=Stealth},
+    dim/.style={<->,very thin,>=Stealth},
+    vect/.style={-{Latex[length=3mm,width=2mm]},very thick},
+    loopedge/.style={very thick}
+  ]
+
+% parameters (in cm units inside picture)
+\def\a{1.2}    % length along x (total)
+\def\b{0.9}    % length along y (total before rotation)
+\def\theta{30} % tilt angle about x axis (degrees)
+\pgfmathsetmacro{\ct}{cos(\theta)}
+\pgfmathsetmacro{\st}{sin(\theta)}
+
+% Axes
+\draw[axis] (0,0,0) -- (1.6,0,0) node[below right] {$x$};
+\draw[axis] (0,0,0) -- (0,1.6,0) node[right] {$y$};
+\draw[axis] (0,0,0) -- (0,0,1.6) node[above left] {$z$};
+
+% compute rotated rectangle corners (rotation about x-axis by +theta)
+% original rectangle corners (x, y, z=0) with y = +- b/2
+\coordinate (A) at (-\a/2, -\b/2*\ct, -\b/2*\st);
+\coordinate (B) at ( \a/2, -\b/2*\ct, -\b/2*\st);
+\coordinate (C) at ( \a/2,  \b/2*\ct,  \b/2*\st);
+\coordinate (D) at (-\a/2,  \b/2*\ct,  \b/2*\st);
+
+% draw rectangle (filled lightly for clarity)
+\filldraw[fill=gray!10,draw=black] (A) -- (B) -- (C) -- (D) -- cycle;
+
+% dashed centerline and plane dashed projection
+\draw[dashed] (A) -- (C);
+\draw[dashed] (B) -- (D);
+
+% current arrow on top (edge from D to C) - choose orientation
+\draw[loopedge, ->] ($(D)!0.15!(C)$) -- ($(D)!0.45!(C)$) node[midway, above right] {$I$};
+
+% label sides a and b
+% a along x direction: distance between A and B projected onto x
+\draw[dim] ($(A)+(0,-0.15,0)$) -- node[below] {$a$} ($(B)+(0,-0.15,0)$);
+% b along the (tilted) side: show as brace near middle of edge B-C projected
+\draw[decorate,decoration={brace,amplitude=3pt}, yshift=-2pt]
+  ($(B)!0.02!(C)$) -- ($(B)!0.98!(C)$) node[midway,below=4pt] {$b$};
+
+% magnetic field B (vertical arrow along +z)
+\draw[vect] (0,0,0.05) -- (0,0,1.3) node[right] {$\mathbf B$};
+
+% magnetic moment vector m: normal to loop (initially (0,0,1) rotated about x by theta)
+% normal after rotation = (0, -sin(theta), cos(theta))
+\coordinate (mend) at (0, -0.6*\st, 0.6*\ct);
+\draw[vect] (0,0,0) -- (mend) node[above right] {$\mathbf m$};
+
+% angle arc between z axis and m (drawn in plane x=0, approximate)
+% project small circle in x=0 plane: we draw a curved path between (0,0,0.4) and mend
+\tdplotsetcoord{Pz}{0.35}{90}{0}   % point along +z (spherical coords r,theta,phi) (used only for placing a label)
+% approximate arc: draw an arc on the plane x=0 by using 2D coordinates after projection:
+\begin{scope}[canvas is yz plane at x=0,transform shape]
+  \draw[->] (0,0.5) arc (90:{90-\theta}:0.5) node[midway,right=2pt] {$\theta$};
+\end{scope}
+
+% origin mark
+\draw (0,0,0) node[circle,fill,inner sep=0.6pt]{};
+
+% small label 'a' and 'b' arrows for clarity near edges (optional)
+% project center of AB for 'a' label (we already put a below)
+% show 'a' arrow also on rectangle edge
+\draw[->] (A) -- ($(A)+(0.2,0,0)$);
+
+% optional central axis (vertical dashed) to emphasize angle location
+\draw[dashed] (0,0,0) -- (0,0,0.85);
+
+\end{tikzpicture}
+\hspace{1cm}
+\begin{tikzpicture}[scale=2,
+    axis/.style={->,thick,>=Stealth},
+    vect/.style={-{Latex[length=3mm,width=2mm]},thick},
+    force/.style={-{Latex[length=3mm,width=2mm]},thick},
+    dim/.style={<->,thin,>=Stealth}
+]
+
+% axes
+\draw[axis] (0,0) -- (1.3,0) node[right] {$y$};
+\draw[axis] (0,0) -- (0,1.1) node[above] {$z$};
+
+% parameters
+\def\theta{25} % degrees
+\def\a{1.0}    % half-length of the rod
+
+% compute rod endpoints (center at origin)
+\coordinate (L) at ({-0.5*\a*cos(\theta)}, {-0.5*\a*sin(\theta)});
+\coordinate (R) at ({0.5*\a*cos(\theta)}, {0.5*\a*sin(\theta)});
+
+% rod
+\draw[thick] (L) -- (R);
+
+% small filled endpoints
+\fill (L) circle (0.03);
+\fill (R) circle (0.03);
+
+% forces at ends
+\draw[force] (L) -- ++(-0.4,0) node[left] {$\mathbf{F}$};
+\draw[force] (R) -- ++(0.4,0) node[right] {$\mathbf{F}$};
+
+% magnetic field B (vertical)
+\draw[vect] (0,0) -- (0,0.9) node[above left] {$\mathbf{B}$};
+
+% magnetic moment m
+\draw[vect] (0,0) -- ({0.5*sin(\theta)},{0.5*cos(\theta)}) node[above right] {$\mathbf{m}$};
+
+% angles θ
+\draw[->] (0.3,0) arc[start angle=0,end angle=\theta,radius=0.3];
+\node at (0.45,0.1) {$\theta$};
+
+\draw[->] (-0.3,0) arc[start angle=180,end angle=180-\theta,radius=0.3];
+\node at (-0.45,0.1) {$\theta$};
+
+% label a under the rod (its projection on y)
+\draw[dim] ($(L)+(0,-0.2)$) -- node[below] {$a$} ($(R)+(0,-0.2)$);
+
+% label origin
+\node[below left] at (0,0) {$a$};
+
+\end{tikzpicture}
+\end{center}
+L'analogia con il dipolo elettrico (momento di dipolo elettrico $\vec p$ e coppia $\vec p\times\vec E$) \`e utile (per esempio anche questa coppia tende a far ruotare il dipolo parallelamente a $\vec B$) ma occorre ricordare che le sorgenti magnetiche sono correnti piuttosto che cariche libere isolate.
+\subsection{Forza su un dipolo magnetico}
+In un campo uniforme:
+\[
+F=I\oint(d\vec l \times \vec B) = I \underbrace{(\oint d\vec l)}_{=0} \times B = 0
+\]
+Per un campo non uniforme ciò non è più vero, per esempio per un anello sospeso sopra ad un solenoide,
+qui $\vec B $ ha componente radiale e $\vec F = 2 \pi r I B_{r} \cos(\theta) $, per un circuito infinitesimale:
+\begin{equation}
+  \vec F =\nabla (\vec m \cdot \vec B)
+\label{eq:forza}
+\end{equation}
+\begin{tikzpicture}[scale=1.05]
+
+% ---------------------------
+%  Left picture: solenoid
+% ---------------------------
+\begin{scope}[shift={(-6,0)}] % move left
+
+  % cylinder body: stack of ellipses (coils)
+  \def\ncoils{12}
+  \def\rx{0.8} \def\ry{0.28}   % ellipse radii
+  \foreach \i in {0,...,\ncoils}{
+    \pgfmathsetmacro{\y}{-1.8 + \i*(3.6/\ncoils)}
+    \draw[thick] (-\rx,\y) arc (180:360:{\rx} and {\ry});
+    \draw[densely dashed, thin] ( \rx,\y) arc (0:180:{\rx} and {\ry});
+  }
+
+  % arrows on the side of the stack to show current direction through the windings
+  \foreach \i in {0,1,...,10}{
+    \pgfmathsetmacro{\y}{-1.6 + \i*(3.2/10)}
+    % short horizontal arrow on the visible ellipse
+    \draw[->,thick] ({-0.22},{\y+0.04}) -- ({0.22},{\y+0.04});
+  }
+
+  % top: diverging magnetic field lines
+  \draw[thick,->] (0,1.3) -- (0,2.2) node[above] {$\mathbf B$};
+  \foreach \a in {-55,-35,-15,15,35,55}{
+    \draw[->,thick] (0,1.05) .. controls ({0.6*cos(\a)},{1.5}) and ({0.9*cos(\a)},{1.9}) .. ({1.4*cos(\a)},{2.3});
+  }
+
+  % small circular arrows around top indicating current of the coil (I)
+  \draw[current arrow,thick] (0,1.05) ellipse (0.6 and 0.2);
+  \node at (-1.1,1.15) {$I$};
+  \node at (1.1,1.15) {$I$};
+
+  % cylinder top cap (solid ellipse)
+  \draw[thick,fill=white] (-\rx,1.05) arc (180:360:{\rx} and {\ry}) -- ++(0,0.02) arc (0:180:{\rx} and {\ry}) -- cycle;
+  % bottom cap
+  \draw[thick] (-\rx,-1.05) arc (180:360:{\rx} and {\ry});
+
+\end{scope}
+
+% ---------------------------
+%  Right picture: current loop and forces/field
+% ---------------------------
+\begin{scope}[shift={(1.5,0)}] % move right
+
+  % parameters
+  \def\Rx{1.6}   % ellipse x radius
+  \def\Ry{0.7}   % ellipse y radius
+  \def\theta{30} % angle for field arrows (degrees)
+
+  % ellipse (current loop)
+  \draw[thick, current arrow] (0,0) ellipse ({\Rx} and {\Ry}); % current arrow on the loop
+
+  % small dot inside loop (slightly to the right) and label R
+  \fill (0.35,0) circle (0.03);
+  \node[right] at (0.35,0) {$R$};
+
+  % rightmost point of the loop
+  \coordinate (P) at ({\Rx},0);
+
+  % dashed cross at the rightmost contact point (vertical and horizontal dashed lines)
+  \draw[dashed] (P) -- ++(0,1.0);
+  \draw[dashed] (P) -- ++(0,-1.0);
+  \draw[dashed] (P) -- ++(-1.0,0);
+  \draw[dashed] (P) -- ++( 1.0,0);
+
+  % field and force vectors at left and right symmetric
+  % right side: B at +theta above horizontal, F at -theta below horizontal
+  \draw[->,thick] ($(P)+(0.0,0)$) -- ++({cos(\theta)},{sin(\theta)}) node[above right] {$\mathbf B$};
+  \draw[->,thick] ($(P)+(0.0,0)$) -- ++({cos(\theta)},{-sin(\theta)}) node[below right] {$\mathbf F$};
+
+  % left side: B at 180-theta (up-left), F at 180+theta (down-left)
+  \coordinate (PL) at ({-\Rx},0);
+  \draw[->,thick] ($(PL)+(0,0)$) -- ++({-cos(\theta)},{sin(\theta)}) node[above left] {$\mathbf B$};
+  \draw[->,thick] ($(PL)+(0,0)$) -- ++({-cos(\theta)},{-sin(\theta)}) node[below left] {$\mathbf F$};
+
+  % angle theta drawn at the right dashed corner: between horizontal dashed and B
+  \draw[->] ($(P)+(-0.25,-0.18)$) arc ( -10:\theta-10:0.35);
+  \node at ($(P)+(0.5,0.18)$) {$\theta$};
+
+  % small label for current direction "I" on top of the ellipse
+  \node at (0,0.85) {$I$};
+
+\end{scope}
+
+\end{tikzpicture}
+
+QUANDO AVRAI SPIEGATO I MATERIALI DIAMAGNETICI METTI: per la \eqref{eq:forza} la forza è opposta alla direzione del campo magnetizzazzione (poichè $M$ è costante e per i diamagneti $M\cdot B <0$) 
 \section{Relazione costitutiva interna}
 \section{Misure di suscettivit\`a magnetica}
 
