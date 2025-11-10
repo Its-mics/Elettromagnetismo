@@ -346,7 +346,7 @@ Con campi elettrici:
 Nel corso della trattazione dell'elettrostatica, ci imbatteremo spesso in problemi del tipo: "un campo è determinato se sono date la divergeneza e il rotore di esso?"
 
 Supponiamo che D($\vec{r}$) sia una funzione tale che $\nabla \cdot \vec{F}(\vec{r})=D(\vec{r})$ dove $\vec{F}(\vec{r})$ è una funzione vettoriale.
-Inoltre supponiamo che $\nabla \times \vec{F}(\vec{r})= \vec{C}(\vec{r})$ con $\vec{C}(\vec{r})$ con divergenza nulla (per definizione).
+Inoltre supponiamo che $\nabla \times \vec{F}(\vec{r})= \vec{C}(\vec{r})$ con $\vec{C}(\vec{r})$ con divergenza nulla (per definizione) .
 
 Vogliamo determinare $\vec{F}(\vec{r})$ dati tali $D(\vec{r})$ e $\vec{C}(\vec{r})$, ovvero vorremmo dimostrare che:
 \[
@@ -358,11 +358,11 @@ U(\vec{r}) = \frac{1}{4 \pi} \int \frac{D(\vec{r'})}{|\vec{r}-\vec{r'}|} d\vec{\
 \quad
 \text{e}
 \quad
-\vec{W}(\vec{r}) = \frac{1}{4 \pi} \int \frac{\vec{C}(\vec{r'})}{|\vec{r}-\vec{r'}|} d\vec{\tau'}
+\vec{W}(\vec{r}) = \frac{1}{4 \pi} \int \frac{\vec{C}(\vec{r'})}{|\vec{r}-\vec{r'}|} d\tau'
 \]
 gli integrali sono su tutto lo spazio, calcoliamo divergenza e rotore di $\vec{F}(\vec{r})$:
 \[
-\nabla \cdot \vec{F}(\vec{r}) = - \nabla^2 U(\vec{r}) = - \frac{1}{4 \pi} \int D(\vec{r'}) \nabla^2 \frac{1}{|\vec{r}-\vec{r'}|} d\vec{\tau'}
+\nabla \cdot \vec{F}(\vec{r}) = - \nabla^2 U(\vec{r}) = - \frac{1}{4 \pi} \int D(\vec{r'}) \nabla^2 \frac{1}{|\vec{r}-\vec{r'}|} d\tau'
 \]
 sapendo che 
 
@@ -377,20 +377,6 @@ sapendo che
 = -\,\frac{\vec R}{R^3} \\[1mm]
 = -\,\frac{\vec r - \vec r'}{|\vec r - \vec r'|^3} 
 \end{equation*}
-Dunque valendo $\nabla \cdot \vec{\frac{1}{r^2}}\hat{r}=\frac{1}{r^2}\frac{\partial}{\partial r}(r^2\frac{1}{r^2})=\frac{1}{r^2}\frac{\partial}{\partial r} 1=0$
-ma allo stesso tempo $\oint \frac{1}{R_0^2}\hat{r} d\vec{a'} =  \oint \frac{1}{R_0^2}\hat{r} R_0^2 \sin(\phi)d\theta d\phi \hat{r} = 4\pi$
-\[
-- \nabla \frac{\vec r - \vec r'}{|\vec r - \vec r'|^3} = - 4\pi \delta^3 (\vec{r}-\vec{r'})
-\]
-si ottiene 
-
-\[
-\nabla \cdot \vec{F}(\vec{r}) = -\int \delta^3 (\vec{r}-\vec{r'}) D(\vec{r'}) d\vec{\tau'} = D(\vec{r})
-\]
-
-
-
-
 \footnotetext[1]{Qui \(\vec R = \vec r - \vec r' =
 \begin{pmatrix} x - x' \\ y - y' \\ z - z' \end{pmatrix}\), e
 \(\frac{\partial \vec R}{\partial \vec r} =
@@ -399,6 +385,36 @@ si ottiene
 0 & 1 & 0 \\
 0 & 0 & 1
 \end{pmatrix} = \mathbf{I}_3\)}
+Dunque valendo $\nabla \cdot \vec{\frac{1}{r^2}}\hat{r}=\frac{1}{r^2}\frac{\partial}{\partial r}(r^2\frac{1}{r^2})=\frac{1}{r^2}\frac{\partial}{\partial r} 1=0$
+ma allo stesso tempo $\oint \frac{1}{R_0^2}\hat{r} d\vec{a'} =  \oint \frac{1}{R_0^2}\hat{r} R_0^2 \sin(\phi)d\theta d\phi \hat{r} = 4\pi$
+\[
+- \nabla \frac{\vec r - \vec r'}{|\vec r - \vec r'|^3} = - 4\pi \delta^3 (\vec{r}-\vec{r'})
+\]
+si ottiene 
+
+\[
+\nabla \cdot \vec{F}(\vec{r}) = -\int \delta^3 (\vec{r}-\vec{r'}) D(\vec{r'}) d\tau' = D(\vec{r})
+\]
+
+dunque (poichè $\nabla \cdot (\nabla \times \vec{W}(\vec{r}))=0$) abbiamo dimostrato la prima parte.
+
+Calcoliamo ora il rotore:
+\[
+\nabla \times \vec{F}(\vec{r}) = \nabla \times (\nabla \times \vec{W}(\vec{r})) = \nabla (\nabla \cdot \vec{W}(\vec{r})) - \nabla^2 \vec{W}(\vec{r})
+\]
+dove abbiamo utilizzato ($\nabla \times (\nabla \cdot \vec{a})=0$).
+Calcoliamo il secondo termine:
+\[
+- \nabla^2 \vec{W}(\vec{r})= - \frac{1}{4 \pi} \int \vec{C}(\vec{r'}) \nabla^2 \frac{1}{|\vec{r}-\vec{r'}|} d\tau' = \int \vec{C}(\vec{r'}) \delta^3 (\vec{r}-\vec{r'}) d\tau' = \vec{C}(\vec{r})
+\]
+Rimane da dimostrare che il primo termine si annulla:
+\[
+\nabla \cdot \vec{W}(\vec{r}) = \frac{1}{4 \pi} \int \vec{C}(\vec{r'}) \cdot \nabla \frac{1}{|\vec{r}-\vec{r'}|} d\tau' = - \frac{1}{4 \pi} \int \vec{C}(\vec{r'}) \cdot \nabla' \frac{1}{|\vec{r}-\vec{r'}|} d\tau'
+
+= - \frac{1}{4 \pi} \int \nabla' \cdot \left( \vec{C}(\vec{r'})\right)  \frac{1}{|\vec{r}-\vec{r'}|} d\tau' + \frac{1}{4 \pi} \int  \cdot \vec{C}(\vec{r'}) \nabla'\left( \frac{1}{|\vec{r}-\vec{r'}|} \right) d\tau'
+\]
+
+
 \chapter{Legge di Gauss}
 \section{Linee di forza del campo elettrico}
 
