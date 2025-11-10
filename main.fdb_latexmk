@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1762758833.3086 "c:/Users/manue/Documents/UNIVERSITA'/II ANNO/Elettromagnetismo/main.tex" "main.pdf" "main" 1762758836.21659 0
+["pdflatex"] 1762759378.11577 "c:/Users/manue/Documents/UNIVERSITA'/II ANNO/Elettromagnetismo/main.tex" "main.pdf" "main" 1762759380.98598 0
   "C:/Users/manue/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762008248 81015 8f522890e5525b3cb752cee1c80a3b68 ""
   "C:/Users/manue/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1746380982 11548 3d3804846c5eaeeff4fa0fa034a6289a ""
   "C:/Users/manue/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1745473716 13148213 8c8187dafc6b6c91837edfc68c8dcba1 ""
@@ -211,11 +211,11 @@
   "C:/Users/manue/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729261622 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "Immagini/Relazioni.png" 1762699804 68362 7f61b9d0a8af376b2d2b46d8e8745020 ""
   "Immagini/morgante.jpg" 1762699804 70407 89cfd163ef106b0b501638ef49e9978b ""
-  "c:/Users/manue/Documents/UNIVERSITA'/II ANNO/Elettromagnetismo/main.tex" 1762758832 148019 ad0190b719f1b6352e7519779640a522 ""
-  "main.aux" 1762758835 20821 64a6cb440a0f6d9eb7285cda8629f503 "pdflatex"
-  "main.out" 1762758835 26747 4c106f55fe5494b2d23ad4f68de37f11 "pdflatex"
-  "main.tex" 1762758832 148019 ad0190b719f1b6352e7519779640a522 ""
-  "main.toc" 1762758835 12975 4c65e0a4918ac18cb57e355cfaae9c4b "pdflatex"
+  "c:/Users/manue/Documents/UNIVERSITA'/II ANNO/Elettromagnetismo/main.tex" 1762759377 148029 df15aca746aa4648e56f4d00d2e7e065 ""
+  "main.aux" 1762759380 20821 64a6cb440a0f6d9eb7285cda8629f503 "pdflatex"
+  "main.out" 1762759380 26747 4c106f55fe5494b2d23ad4f68de37f11 "pdflatex"
+  "main.tex" 1762759377 148029 df15aca746aa4648e56f4d00d2e7e065 ""
+  "main.toc" 1762759380 12975 4c65e0a4918ac18cb57e355cfaae9c4b "pdflatex"
   (generated)
   "main.aux"
   "main.log"
