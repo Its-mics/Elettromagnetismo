@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.24)  10 NOV 2025 21:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.24)  14 NOV 2025 00:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1049,12 +1049,12 @@ Capitolo 17.
 [73]
 
 [74]
-Underfull \hbox (badness 10000) in paragraph at lines 3002--3006
+Underfull \hbox (badness 10000) in paragraph at lines 3014--3018
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3012--3022
+Underfull \hbox (badness 10000) in paragraph at lines 3024--3034
 
  []
 
@@ -1063,24 +1063,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 3012--3022
 [75]
 
 [76]
-Underfull \hbox (badness 10000) in paragraph at lines 3102--3115
+Underfull \hbox (badness 10000) in paragraph at lines 3114--3127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3129--3137
+Underfull \hbox (badness 10000) in paragraph at lines 3141--3149
 
  []
 
 
 
 [77]
-Underfull \hbox (badness 10000) in paragraph at lines 3139--3148
+Underfull \hbox (badness 10000) in paragraph at lines 3151--3160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3139--3148
+Underfull \hbox (badness 10000) in paragraph at lines 3151--3160
 
  []
 
@@ -1095,17 +1095,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FE6FFDB246671E958BFF182751748BF9;26908.
  ) 
 Here is how much of TeX's memory you used:
- 28867 strings out of 469959
- 592899 string characters out of 5469834
- 937151 words of memory out of 5000000
- 54934 multiletter control sequences out of 15000+600000
+ 28870 strings out of 469959
+ 592926 string characters out of 5469834
+ 937203 words of memory out of 5000000
+ 54935 multiletter control sequences out of 15000+600000
  648801 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,19n,87p,742b,1196s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\manue\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (78 pages, 863694 bytes).
+Output written on main.pdf (78 pages, 865026 bytes).
 PDF statistics:
- 1335 PDF objects out of 1440 (max. 8388607)
- 289 named destinations out of 1000 (max. 500000)
+ 1338 PDF objects out of 1440 (max. 8388607)
+ 291 named destinations out of 1000 (max. 500000)
  1139 words of extra memory for PDF output out of 10000 (max. 10000000)
 

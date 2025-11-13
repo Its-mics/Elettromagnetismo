@@ -2300,7 +2300,7 @@ J_m(x)=\frac{\partial M_z}{\partial y} - \frac{\partial M_y}{\partial z},
 \]
 e più in generale:
 \[
-\vec{J_m} = \nabla times \vec M
+\vec{J_m} = \nabla \times \vec M
 \]
 che conferma $\nabla \cdot \vec J_m = 0$
 
@@ -2345,7 +2345,7 @@ Verificando la divergenza del membro di destra si ottiene:
 = \mu_0\Bigl(\nabla\cdot\vec{J} + \frac{\partial}{\partial t}(\varepsilon_0\nabla\cdot\vec{E})\Bigr)
 = \mu_0\Bigl(\nabla\cdot\vec{J} + \frac{\partial\rho}{\partial t}\Bigr)=0,
 \]
-(questo poiché si sta facendo la divergenza di un rotore,) trovando che è quindi compatibile con la continuità di carica.
+(questo poiché si sta facendo la divergenza di un rotore) trovando che è quindi compatibile con la continuità di carica.
 \\
 Sapendo ora che la densità di corrente totale può essere espressa come
 \[
@@ -2389,6 +2389,13 @@ $$
 $$
 infatti se $\vec{P}$ è costante $\to \vec{J_b}=0$.
 
+Dunque 
+\begin{equation}
+\nabla \times \vec{H}= \vec{J_f}(\vec{r}) \rightarrow \oint_{\gamma} \vec{H}\cdot d\vec{\ell} = I_{f}
+\label{h}
+\end{equation}
+dove $I_f$ è la corrente libera passante per il percorso $\gamma$.
+Da quest'ultime formule interpretiamo l'utilità di $\vec{H}$, poichè, in generale, $\vec{J_f}$ è nota, ci possiamo avvalere di questo campo per calcolare $\vec{B}$.
 \section{Teorema di equivalenza di Amp\`ere}
 Il teorema di equivalenza di Ampère permette di usare soluzioni già note per problemi di elettrostatica anche in molti problemi di magnetostatica: esso infatti mostra come opportune distribuzioni di magnetizzazione siano equivalenti, dal punto di vista del campo magnetico \(\vec{B}\) o del campo \(\vec{H}\), a distribuzioni formali di «cariche magnetiche».
 
@@ -2545,6 +2552,11 @@ Proviamo ora a risolvere dei casi.
 
 \end{itemize}
 
+\subsubsection*{Avvertenza}
+Non bisogna essere troppo affrettati nelle conclusioni dopo aver visto le relazioni che legano questi campi:
+nel caso in cui si abbiano delle simmetrie si può calcolare facilmente $\vec{H}$ (e quindi $\vec{B}$ all'esterno del materiiale)
+tramite la \eqref{h}, in tali casi $\nabla \cdot \vec{M} = 0$ perchè la risposta è univocamente determinata da $I_f$.
+Se questo requisito è assente NON possiamo suppore che $\vec H =0$ solo perchè non vi sono correnti libere.
 
 
 
