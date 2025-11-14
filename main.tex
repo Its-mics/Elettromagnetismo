@@ -2567,30 +2567,30 @@ Dal fatto che $\nabla \cdot \vec B = 0 $ possiamo introdurre un \textit{potenzia
 \]
 Dalla legge di Ampère si ha che: 
 \begin{equation}
-  \nabla \times \vec B = \nabla \times (\nabla \vec A) = \nabla (\nabla \cdot A) - \nabla^2 A = \mu_0 \vec J
+  \nabla \times \vec B = \nabla \times (\nabla \vec A) = \nabla (\nabla \cdot \vec A) - \nabla^2 \vec A = \mu_0 \vec J
 \label{eq:nabla}
 \end{equation}
 ovviamente ad esso possiamo aggiungere una qualsiasi funzione tale che essa abbia rotore nullo senza cambiare alterare $\vec B$.
-Utilizzermo ciò per affermare che $\nabla \cdot A =0 $:
+Utilizzermo ciò per affermare che $\nabla \cdot \vec A =0 $:
 \begin{enumerate}
-  \item Supponiamo che $\nabla \cdot A_0 \neq 0$
-  \item Se aggiungiamo a $A_0$ un gradiente di una funzione scalare $\psi$ otteniamo:
+  \item Supponiamo che $\nabla \cdot \vec A_0 \neq 0$
+  \item Se aggiungiamo a $\vec A_0$ un gradiente di una funzione scalare $\psi$ otteniamo:
   \[
-  \nabla \cdot A = \nabla \cdot A_0 + \nabla^2 \psi
+  \nabla \cdot \vec A = \nabla \cdot \vec A_0 + \nabla^2 \psi
   \]
-  \item Poniamo ora che $\nabla^2 \psi = - \nabla \cdot A_0$ in modo che $\nabla \cdot A =0$,
-  ciò è matematicamente uguale a risolvere $\nabla^2 V = - \frac{\rho}{\varepsilon_0}$
+  \item Poniamo ora che $\nabla^2 \psi = - \nabla \cdot \vec A_0$ in modo che $\nabla \cdot \vec A =0$,
+  ciò è matematicamente uguale a risolvere $\nabla^2 V = - \frac{\rho}{\varepsilon_0}$ (per ogni componente)
   \item Quest'ultima la sappiamo risolvere $V= \frac{1}{4 \pi\varepsilon_0}\int \frac{\rho}{|\vec r - \vec r'|}d\tau'$ (assumendo che $\rho \to 0$ per $r \to \infty$)
-  \item Dunque se $\nabla \cdot A_0 \to0 $ per $r \to \infty$ abbiamo la soluzione simile:
+  \item Dunque se $\nabla \cdot \vec A_0 \to0 $ per $r \to \infty$ abbiamo la soluzione simile:
   \[
-  \psi= \frac{1}{4\varepsilon_0}\int \frac{\nabla \cdot A_0}{|\vec r - \vec r'|}d\tau'
+  \psi= \frac{1}{4\varepsilon_0}\int \frac{\nabla \cdot \vec A_0}{|\vec r - \vec r'|}d\tau'
   \]
   \item Se ciò non accade abbiamo altri modi per trovare $\psi$ (come quando la distribuzione di carica era infinita)
 \end{enumerate}
-In conclusione: possiamo porre $\nabla \cdot A =0$ senza perdita di generalità.
+In conclusione: possiamo porre $\nabla \cdot\vec A =0$ senza perdita di generalità.
 
 Dunque la \eqref{eq:nabla} diventa:
-\[ \nabla^2 A = \mu_0 \vec J
+\[ \nabla^2 \vec A = \mu_0 \vec J
 \]
 che è l'equazione di Poisson! Dunque abbiamo già la soluzione (assumendo che $\vec J \to 0$ per $r \to \infty$):
 \begin{equation}
@@ -2598,7 +2598,25 @@ che è l'equazione di Poisson! Dunque abbiamo già la soluzione (assumendo che $
 \label{eq:potenziale_vettore}
 \end{equation}
 poichè solitamente le correnti puntano nella stessa direzione la direzione di $\vec A$ sarà la stessa della corrente.
+
+\section{Condizioni al contorno}
+Consideriamo una superfice in cui vi è presente una corrente superficiale $\vec K$.
+Costruiamo un percorso $\gamma$ rettangolare che attraversa la superfice in modo tale che due lati siano paralleli alla superfice e due perpendicolari.
+Sappiamo che:
+\[
+\oint_{A_{\gamma}} \vec B \cdot d\vec a = 0
+\]
 \section{Esempi}
+Consideriamo un filo sulla quale passa una corrente $\vec I$ e consideriamo un elementino $d\vec s $ di superfici (con verso uguale a $\vec I$). 
+Vogliamo calcolare il contributo di questo elemento al potenziale vettore in un punto $\vec r'$.
+\[
+d \vec A (\vec r) = \frac{\mu_0}{4 \pi} \frac{\vec J(\vec r')}{|\vec r - \vec r'|} d\tau'
+\]
+riscrivendo $\vec J d\tau' = \vec J   S ds =  I d\vec s$ (l'informazione sul verso passa a $d \vec s$ perchè hanno stesso verso) otteniamo
+\[
+d \vec A (\vec r) = \frac{\mu_0}{4 \pi} \frac{I d\vec s}{|\vec r - \vec r'|} (\text{nuovamente: $\vec A \parallel d\vec s$})
+\]
+
 \section{Esempi aggiuntivi}
 \section{Interazioni magnetiche}
 

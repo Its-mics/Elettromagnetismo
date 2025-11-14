@@ -96,9 +96,10 @@
 \contentsline {section}{\numberline {11.3}Teorema di equivalenza di Amp\`ere}{58}{section.11.3}%
 \contentsline {section}{\numberline {11.4}Esempi}{60}{section.11.4}%
 \contentsline {chapter}{\numberline {12}Potenziale vettore di Amp\`ere}{63}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Esempi}{63}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Esempi aggiuntivi}{63}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Interazioni magnetiche}{63}{section.12.3}%
+\contentsline {section}{\numberline {12.1}Condizioni al contorno}{64}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Esempi}{64}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Esempi aggiuntivi}{64}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Interazioni magnetiche}{64}{section.12.4}%
 \contentsline {chapter}{\numberline {13}Come i materiali reagiscono ai campi magnetici di stimolo}{65}{chapter.13}%
 \contentsline {section}{\numberline {13.1}Introduzione}{65}{section.13.1}%
 \contentsline {section}{\numberline {13.2}Momento di dipolo magnetico}{65}{section.13.2}%
