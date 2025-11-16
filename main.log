@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.24)  14 NOV 2025 12:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.24)  17 NOV 2025 00:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -660,7 +660,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2
 
 ]
-<Immagini/morgante.jpg, id=578, 458.46281pt x 210.03468pt>
+<Immagini/morgante.jpg, id=582, 458.46281pt x 210.03468pt>
 File: Immagini/morgante.jpg Graphic file (type jpg)
 <use Immagini/morgante.jpg>
 Package pdftex.def Info: Immagini/morgante.jpg  used on input line 43.
@@ -678,27 +678,27 @@ Package pdftex.def Info: Immagini/morgante.jpg  used on input line 43.
 [6]
 
 [7]
-Overfull \hbox (1.88896pt too wide) detected at line 144
+Overfull \hbox (1.88896pt too wide) detected at line 145
 \OT1/cmr/m/n/10 17.-18.0 
  []
 
 
-Overfull \hbox (1.88896pt too wide) detected at line 145
+Overfull \hbox (1.88896pt too wide) detected at line 146
 \OT1/cmr/m/n/10 17.-18.1 
  []
 
 
-Overfull \hbox (1.88896pt too wide) detected at line 146
+Overfull \hbox (1.88896pt too wide) detected at line 147
 \OT1/cmr/m/n/10 17.-18.2 
  []
 
 
-Overfull \hbox (1.88896pt too wide) detected at line 147
+Overfull \hbox (1.88896pt too wide) detected at line 148
 \OT1/cmr/m/n/10 17.-18.3 
  []
 
 
-Overfull \hbox (1.88896pt too wide) detected at line 148
+Overfull \hbox (1.88896pt too wide) detected at line 149
 \OT1/cmr/m/n/10 17.-18.4 
  []
 
@@ -806,7 +806,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 716--720
 
 
 [22]
-<Immagini/Relazioni.png, id=836, 448.67625pt x 373.395pt>
+<Immagini/Relazioni.png, id=841, 448.67625pt x 373.395pt>
 File: Immagini/Relazioni.png Graphic file (type png)
 <use Immagini/Relazioni.png>
 Package pdftex.def Info: Immagini/Relazioni.png  used on input line 758.
@@ -846,103 +846,103 @@ Missing character: There is no + in font nullfont!
 [33]
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 1311--1312
-
- []
-
-
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 1321--1322
+Underfull \hbox (badness 10000) in paragraph at lines 1312--1313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
+Underfull \hbox (badness 10000) in paragraph at lines 1322--1323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1343--1344
+Underfull \hbox (badness 10000) in paragraph at lines 1339--1340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+Underfull \hbox (badness 10000) in paragraph at lines 1344--1345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1353--1354
+Underfull \hbox (badness 10000) in paragraph at lines 1349--1350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1354--1355
 
  []
 
 
 
 [36]
+
+[37]
+
+[38
+
+]
 Capitolo 7.
 
 
-[37
-
-]
-
-[38]
-
 [39]
 
-[40
-
-]
-Capitolo 8.
-
+[40]
 
 [41]
 
 [42]
-
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 1719--1723
-
- []
+Capitolo 8.
 
 
-
-[44]
-Capitolo 9.
-
-
-[45
+[43
 
 ]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1826.
+[44]
 
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 1774--1778
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 1826.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1826.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1826.
+ []
 
 
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 1871--1876
+Capitolo 9.
+
+
+[47
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1881.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\to' on input line 1881.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1881.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1881.
+
+
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1926--1931
 
  []
 
 
-
-[47]
-
-[48]
 
 [49]
 
@@ -950,92 +950,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 1871--1876
 
 [51]
 
-[52
+[52]
+
+[53]
+
+[54
 
 ]
 Capitolo 10.
 
 
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 2194--2199
-
- []
-
-
-
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 2257--2262
-
- []
-
-
-
 [55]
+Underfull \hbox (badness 10000) in paragraph at lines 2249--2254
+
+ []
+
+
 
 [56]
+Underfull \hbox (badness 10000) in paragraph at lines 2312--2317
+
+ []
+
+
+
+[57]
+
+[58]
 Capitolo 11.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2311.
+(hyperref)                removing `math shift' on input line 2366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2311.
+(hyperref)                removing `math shift' on input line 2366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2313.
+(hyperref)                removing `math shift' on input line 2368.
 
 
 
-[57
+[59
 
 ]
-
-[58]
-
-[59]
 
 [60]
 
 [61]
 
-[62
+[62]
+
+[63]
+
+[64
 
 ]
 Capitolo 12.
 
 
-[63]
-
-[64]
-Capitolo 13.
-
-
-[65
-
-]
+[65]
 
 [66]
-Capitolo 14.
+Capitolo 13.
 
 
 [67
 
 ]
 
-[68
+[68]
+Capitolo 14.
+
+
+[69
 
 ]
-Capitolo 15.
-
-
-[69]
 
 [70
 
 ]
-Capitolo 16.
+Capitolo 15.
 
 
 [71]
@@ -1043,69 +1039,77 @@ Capitolo 16.
 [72
 
 ]
-Capitolo 17.
+Capitolo 16.
 
 
 [73]
 
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 3031--3035
+[74
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3041--3051
-
- []
-
+]
+Capitolo 17.
 
 
 [75]
 
 [76]
-Underfull \hbox (badness 10000) in paragraph at lines 3131--3144
+Underfull \hbox (badness 10000) in paragraph at lines 3087--3091
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3158--3166
+Underfull \hbox (badness 10000) in paragraph at lines 3097--3107
 
  []
 
 
 
 [77]
-Underfull \hbox (badness 10000) in paragraph at lines 3168--3177
+
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 3187--3200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3168--3177
+Underfull \hbox (badness 10000) in paragraph at lines 3214--3222
 
  []
 
 
 
-[78] (main.aux)
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 3224--3233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3224--3233
+
+ []
+
+
+
+[80] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FAA458ADA1775BF0436C333089D4FF35;27082.
+(rerunfilecheck)             Checksum: B131A77593E97997AEA91025881E6FA4;27312.
  ) 
 Here is how much of TeX's memory you used:
- 28872 strings out of 469959
- 592952 string characters out of 5469834
- 937205 words of memory out of 5000000
- 54936 multiletter control sequences out of 15000+600000
+ 28880 strings out of 469959
+ 593042 string characters out of 5469834
+ 937336 words of memory out of 5000000
+ 54939 multiletter control sequences out of 15000+600000
  648801 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,19n,87p,742b,1196s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\manue\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/manue/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (78 pages, 867221 bytes).
+Output written on main.pdf (80 pages, 876941 bytes).
 PDF statistics:
- 1343 PDF objects out of 1440 (max. 8388607)
- 292 named destinations out of 1000 (max. 500000)
- 1147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1362 PDF objects out of 1440 (max. 8388607)
+ 297 named destinations out of 1000 (max. 500000)
+ 1155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

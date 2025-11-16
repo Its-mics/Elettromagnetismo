@@ -1178,6 +1178,7 @@ C = \frac{Q}{V}= \frac{1}{\frac{1}{l2\pi\varepsilon_0}\ln\left(\frac{R_1}{R_0}\r
   \end{tikzpicture}
 \end{center}
 
+\section{Dipolo elettrico}
 Iniziamo a parlare di dipoli elettrici: sistemi caratterizzati da due poli (o cariche) distanziati, uno di carica positiva e uno di carica negativa.\\
 Si introduce una nuova quantit\`a vettoriale detta \textit{momento di dipolo elettrico}:
 \begin{equation*}
@@ -1205,7 +1206,7 @@ V(\vec{r}) = \frac{\vec{p}\cdot\vec{r}}{4\pi\varepsilon_0r^2}
 
 Nel limite di dipolo, avendo ottenuto il potenziale, utilizziamo la relazione $\vec{E}(\vec{r})=-\vec{\nabla}V(\vec{r})$ per ottenere il campo elettrico:
 \begin{equation*}
-\vec{E}(\vec{r})=\frac{3\vec{p}\vec{r}}{r^5}\cdot\vec{r} -\frac{\vec{p}}{r^3}
+\vec{E}(\vec{r})=\frac{1}{4 \pi \varepsilon_0}\frac{3\vec{p}\vec{r}}{r^5}\cdot\vec{r} -\frac{\vec{p}}{r^3} \rightarrow \vec{E}(\vec{r}, \phi)=\frac{p}{4 \pi \varepsilon_0 r^3}\left(2 \cos(\phi) \hat r + \sin(\phi) \hat \phi \right)
 \end{equation*}
 
 Analizziamo quindi le caratteristiche di questo campo (le formule trovate rappresentano bene anche dipoli reali, fintanto che non siano troppo vicini al dipolo).\\
@@ -1494,14 +1495,68 @@ Utilizzando le leggi appena ricavate osserviamo ciò che accade all'interno di u
  \underbrace{\rho_{C}(\vec{r},t)}_{\text{d'interesse}}= \rho_{tot}(\vec{r},t)- \underbrace{\rho_{build-in}(\vec{r},0)}_{=\rho(\vec{r},0)}
 \]
 che posso riformulare come 
-\[
+\begin{equation}
 \rho_{C}(\vec{r},t)=\int_{0}^{t}\frac{\partial}{\partial{t'}}\rho(\vec{r},t')dt'=-\int_{0}^{t}\nabla\vec{J}(\vec{r},t')dt'=-\nabla\int_{0}^{t}\vec{J}(\vec{r},t')dt'
-\]
+\label{eq:carica_corrente}
+\end{equation}
 Quindi le correnti si sono generate a causa di uno stimolo.
 
 \subsection{Modelliziamo l'atomo}
 \section{Carica elettrica legata e libera}
-\section{Campo di polarizzazione}
+\section{Polarizzazione e campo di polarizzazione}
+Quando un atomo viene inserito in un campo elettrico $\vec E (\vec r)$, vi è una forza $\vec F_{el}$ che divide nucleo e nube elettronica, l'atomo si dice \textit{polarizzato}.
+Ogni atomo possiede una \textit{polarizzabilità} $\alpha$ che lega il momento di dipolo indotto $\vec p$ al campo elettrico applicato: 
+\[
+\vec p = \alpha \vec E(\vec r) 
+\]
+per le molecoli il momento di dipolo potrebbe non puntare nella stessa direzione di $\vec E$:
+\[
+\vec p = \alpha_\perp \vec E_\perp + \alpha_\parallel \vec E_\parallel
+\]
+in questo caso le molecole risentono di un momento torcente:
+\[
+\displaystyle \vec N=(\vec r_+ \times \vec F_+) + (\vec r_- \times \vec F_-) = \left[\left(\frac{\vec d}{2} \times q\vec E\right) + \left(-\frac{\vec d}{2} \times -q\vec E\right)\right] = \vec p \times \vec E
+\]
+utiizzando la definizione di dipolo.
+
+Se il campo non è uniforme non potremmo assicurare il bilanciamento di $\vec F_+$ ed $\vec F_-$, in generale:
+\[
+\displaystyle \vec F = \vec F_+ + \vec F_- = q\vec E_+ - q\vec E_- = \underbrace{q (\Delta \vec E)}_{\Delta E_x = \nabla \vec E_x \cdot \vec d \hspace{0.2cm}\footnotemark[1]}  \approx (\vec p \cdot \nabla) \vec E(\vec r)
+\]
+\footnotetext[1]{E questo viene fatto su tutte le componenti, per ricordarlo basti pensare al caso scalare $df = \frac{df}{dx}dx$}
+
+Ma nel caso continuo, ovviamente, molte molecole di una sostanza verranno polarizzate, per questo viene definito il \textbf{campo di polarizzazzione}:
+\[
+P=\frac{p}{V}
+\]
+
+Tornando alla \eqref{eq:carica_corrente} e concentrandoci su un materiale isolante avremo:
+\begin{equation}
+\rho_b = -\int_{0}^{t}\nabla \cdot \vec J_b(\vec{r},t')dt' = -\nabla \cdot \vec P(\vec{r},t)
+\label{eq:pol}
+\end{equation}
+dove abbiamo definito l'integrale:
+\[
+-\int_{0}^{t}\nabla \cdot \vec J_b(\vec{r},t')dt' = \vec P(\vec{r},t)
+\]
+Una seconda relazione importante si trova immaginando di immergere un un dielettrico neutro (isotropo e uniforme) in un campo elettrico.
+Supporemmo tale campo uniforme, in modo che lo sia la anche la polarizzazzione, dunque i dipoli si orienteranno come il campo di stimolo. All'interno del materiali 
+"le code" e le "punte" di ogni dipolo si annullano a vicena, ma ciò non accade in superfice.
+Prendendo un cilindro di dimensioni microscopiche a cavallo della superfice del dielettrico, per $h_{cil} \to 0$ avremo:
+\[
+\sigma_b dS_{base}=\int_V \rho_b dV \overset{*}{=}  -\int_V \nabla \cdot \vec P dV = -\oint_S \vec P \cdot \hat{n} dS \overset{**}{=} \vec P \cdot \hat{n} dS_{base} 
+\]
+dove 
+\begin{itemize}
+  \item in $*$ abbiamo utilizzato la \eqref{eq:pol}
+  \item $**$ è dovuto al fatto che il cilindro è infinitesimo, dunque $\vec P$ è costante. 
+  \item inoltre il segno diventa positivo perchè l'unico flusso che da contributo è quello e quella passante per la superfice con $\hat{n}$ entrante nel dielettrico,
+  mentre il flusso per convenzione è calcolato col versore uscente.
+\end{itemize}
+duqnue:
+\[
+\sigma_b = \vec P \hat n = \vec P_\perp
+\] 
 \section{Densit\`a di carica superficiale nei materiali}
 \section{La pila di volta}
 \section{Potenza elettrica}
